@@ -4,6 +4,9 @@ body {
   font-weight: 500;
   font-size: 25px !important;
   line-height: 30px;
+  zoom: .8;
+  background-color: rgb(230, 230, 230);
+  margin: 0;
 }
 
 .zn-body__paragraph {
@@ -11,9 +14,16 @@ body {
   font-size: 25px !important;
   line-height: 30px !important;
 }
+.div-nav{
+  position: absolute;
+  width: 110%;
+  height: 40px;
+  background-color: #fff;
+  top: 0;
+}
 
 #nav {
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
 }
 
@@ -34,7 +44,9 @@ body {
 
 .l-container {
   max-width: 1280px;
+  padding: 0 15px;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 .metadata__byline__author1 {
@@ -108,8 +120,11 @@ body {
 }
 
 .paragraph__doc {
-  zoom: .95;
+  /* zoom: .95; */
   width: 694px;
+}
+.do-posle{
+  margin-top: 50px;
 }
 
 .img__box__do-posle {
@@ -149,7 +164,7 @@ body {
 }
 
 .paragraph__do-posle {
-  margin-top: 27px;
+  margin-top: 60px;
   zoom: .95;
   margin-bottom: 40px;
 }
@@ -161,7 +176,9 @@ body {
 .chlen__item {
   display: flex;
   gap: 30px;
-  margin-bottom: 20px;
+  border-bottom: 7px solid rgb(230, 230, 230);
+  padding: 15px;
+  padding-left: 0;
 }
 
 .chlen__data-block {
@@ -205,13 +222,16 @@ body {
   display: flex;
   background-color: rgba(57, 181, 74, 1);
   padding-left: 30px;
+  width: 1280px;
+  margin-left: -15px;
   height: 430px;
   padding-top: 1px;
+  gap: 20px;
 }
 
 .sostav-title {
   color: #FFFFFF;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 45px;
   line-height: 54px;
@@ -222,7 +242,7 @@ body {
   width: 780px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 17px;
 }
 
 .sex-gif_end {
@@ -235,35 +255,33 @@ body {
   max-width: 1280px;
 }
 
-.zakaz__img {
+
+.zakaz__img{
+  margin-top: 40px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .zakaz__pic{
-  margin-left: -7%;
+  zoom: .4;
+  margin-bottom: 40px;
 }
 
 .zakaz__btn {
-  display: block;
-  width: 544px;
-  height: 544px;
-  border-radius: 50%;
-  background: linear-gradient(90.27deg, #E01900 0.22%, #FF9F00 98.28%);
-  position: relative;
-  margin-top: 130px;
+  width: 470px;
+  height: 60px;
+  background-color: #C00000;
+  border-radius: 60px;
+  text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .zakaz__btn span {
-  position: absolute;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
-  text-align: center;
-  font-weight: 900;
-  font-size: 80px;
-  line-height: 109px;
-  color: #FFFFFF;
-  top: 27%;
-  left: 7%;
+  padding-top: 3.3%;
+  color: #fff;
+
 }
 #bottombar1{
   right: 0;
@@ -273,8 +291,6 @@ body {
   padding-top: 10px;
   padding-right: 5px;
   padding-left: 5px;
-}
-#counter1{
   color: #FFFFFF;
 }
 
@@ -289,10 +305,7 @@ body {
   body{
     zoom: .9;
   }
-  .zakaz__img{
-    flex-direction: column-reverse;
-    align-items: center;
-  }
+  
 }
 
 /* ===================== 992 ===================== */
