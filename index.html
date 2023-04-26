@@ -787,7 +787,7 @@
       Under Dr. Samadi's expert supervision, the participants took <a href="#" class="red__txt1">Animale</a> daily and
       provided regular feedback. At the
       end of the experiment, all six men reported significant improvements in erection strength, sexual stamina, and
-      confidence. All 6 men increased their penises by at least 2 inches as a result of using the drug
+      confidence. All 6 men increased their penises by at least 2 inches as a result of using the remedy
     </div>
 
 
@@ -991,7 +991,6 @@
     </div>
 
     <!-- //////////////// блок заказать ////////// -->
-
     <h2 class="subtitle pg-headline end-title">
       Fill her pussy with hot cum, have time to buy <a href="#" class="red__txt">Animale!</a>
     </h2>
@@ -1013,7 +1012,8 @@
         </div>
       </div>
     </div>
-
+    
+    <hr>
     <div class="zakaz__img">
       <div class="zakaz__pic">
         <img src="./img/banka.png" alt="">
@@ -1024,7 +1024,7 @@
         </span>
       </a>
     </div>
-
+<hr>
 
 
     <!-- //////////////// footer ////////// -->
@@ -1127,6 +1127,64 @@
 
     element.addEventListener("click", function () {
       element.classList.add("hidden-red");
+    });
+  </script>
+  <!-- //////////////// псевдо каунтер ////////// -->
+  <style>
+    #popup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 30;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+    }
+
+    .popup-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    #close-popup{
+      position: absolute;
+      top: 1%;
+      right: 2.5%;
+      color: #C00000;
+    }
+  </style>
+
+
+  <div id="popup">
+    <div class="popup-content">
+      <div id="close-popup">x</div>
+      <h2 class="red__txt1">Wait!</h2>
+      <div><strong>GET A HUGE <span class="red__txt1">DISCOUNT</span> + FREE SHIPPING</strong></div>
+      <div class="zakaz__img">
+        <div class="zakaz__pic">
+          <img src="./img/banka.png" alt="">
+        </div>
+        <a href="#" class="zakaz__btn">
+          <span>
+            GET YOUR 50% DISCOUNT
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    setTimeout(function() {
+      document.getElementById('popup').style.display = 'block';
+    }, 20000);
+
+    document.getElementById('close-popup').addEventListener('click', function() {
+      document.getElementById('popup').style.display = 'none';
     });
   </script>
 
