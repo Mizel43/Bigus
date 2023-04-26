@@ -391,8 +391,11 @@ hr {
     width: 850px;
   }
   .inch__item{
-    font-size: 40px;
-    line-height: 100px;
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .text__box__do-posle {
+    zoom: .4;
   }
 }
 
