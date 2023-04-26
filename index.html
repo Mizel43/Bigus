@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="newcss.css">
+  <title>CNN</title>
+</head>
+
+<body>
+  <div id="nav__plain-header" class="nav--plain-header">
+    <div class="div_line"></div>
+    <div data-react-id="1">
+      <div id="nav">
+        <header mode="light" id="header-nav-container" data-zjs-campaign="header-wrapper"
+          class="Box-sc-1fet97o-0-header sc-kaNhvL fUedpH">
+          <div class="Text-sc-1amvtpj-0 sc-LKuAh iModch">
+            <div class="Grid-sc-1kcyc0j-0 sc-iBEsjs gsHmNy">
+              <div class="Cell-i0zvfi-0 sc-hzNEM hDUaXo"><button id="menuButton" tabindex="-1" data-test="menuButton"
+                  data-zjs="click" data-zjs-campaign="header-expanded-nav-btn" class="sc-bdVaJa sc-ebFjAB cYlNy"><svg
+                    class="menu-icon" style="outline:0" width="24" height="24" viewBox="0 0 64 64" fill="currentColor"
+                    tabindex="0" focusable="true" xmlns="https://www.w3.org/2000/svg" aria-labelledby="menuIconTitle"
+                    role="img">
+                    <title id="menuIconTitle">Open Menu</title>
+                    <path d="M52.75,47.84H11.25a2.08,2.08,0,1,0,0,4.16h41.5a2.08,2.08,0,1,0,0-4.16Z"></path>
+                    <path d="M52.75,28.92H11.25a2.08,2.08,0,1,0,0,4.16h41.5a2.08,2.08,0,1,0,0-4.16Z"></path>
+                    <path d="M11.25,14.16h41.5a2.08,2.08,0,1,0,0-4.16H11.25a2.08,2.08,0,1,0,0,4.16Z"></path>
+                  </svg></button>
+                <div size="40" class="Flex-sc-1sqrs56-0 sc-iwsKbI YyuVL"><a href="https://edition.cnn.com/"
+                    aria-label="CNN" data-analytics="header_top-nav" color="#0C0C0C" mode="light"
+                    class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 jlzTwO"><svg class="cnn-badge-icon" style="outline:0"
+                      width="40" height="40" viewBox="0 0 240 240" fill="#CC0000" xmlns="https://www.w3.org/2000/svg"
+                      aria-hidden="true">
+                      <rect x="0" y="0" width="100%" height="100%" fill="#fff"></rect>
+                      <path
+                        d="M.31-.07v240h240V-.07ZM86.54,135.29V92.51c0-16.1,20.81-23.83,31.82-5.12.8,1.35,18.14,31.22,18.14,31.22V92.51c0-16.1,20.8-23.83,31.81-5.12.8,1.35,18.14,31.22,18.14,31.22V76.79h10.38V147a2.11,2.11,0,0,1-1.51,2.14c-1.1.3-2.26-.38-3.11-1.82-.17-.28-9-15.46-17.48-30.13L159.17,90.4c-2.18-3.7-5.43-4.35-7.74-3.72a6.23,6.23,0,0,0-4.55,6.13V147a2.12,2.12,0,0,1-1.51,2.14c-1.11.3-2.27-.38-3.11-1.82-.15-.25-8.34-14.36-16.25-28-10.08-17.38-16.7-28.78-16.8-28.95-2.18-3.71-5.44-4.35-7.77-3.72a6.24,6.24,0,0,0-4.56,6.13v53.05a2.9,2.9,0,0,1-2.72,2.71H67.23a28.64,28.64,0,0,1,0-57.28h14v10.36H67.35a18.28,18.28,0,1,0,0,36.56H83.68A2.84,2.84,0,0,0,86.54,135.29Zm124.77,12.05c0,16.1-20.81,23.83-31.82,5.13-.79-1.35-18.14-31.23-18.14-31.23v26.1c0,16.1-20.8,23.83-31.81,5.13-.8-1.35-18.14-31.23-18.14-31.23v24.61c0,11.17-6.63,17.22-17,17.22H67.25a43.14,43.14,0,0,1,0-86.28h14V87.15h-14a32.78,32.78,0,1,0,0,65.56H94.16a7,7,0,0,0,6.86-6.85V92.81a2.1,2.1,0,0,1,1.51-2.13c1.1-.3,2.26.38,3.11,1.82l16.79,28.93c9.76,16.83,16.17,27.88,16.25,28,2.19,3.7,5.45,4.35,7.78,3.71A6.22,6.22,0,0,0,151,147V92.82a2.11,2.11,0,0,1,1.49-2.14c1.09-.3,2.24.38,3.08,1.82l15.56,26.81,17.49,30.15c1.71,2.9,4.09,3.93,6.16,3.93a6,6,0,0,0,1.61-.22A6.23,6.23,0,0,0,201,147V76.79h10.34Z"
+                        transform="translate(-0.31 0.07)"></path>
+                    </svg></a><a href="https://edition.cnn.com/health" aria-label="Health" mode="light"
+                    data-analytics="header_top-nav" data-test="section-link" color="#0C0C0C"
+                    class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-gZMcBi cSkDDV"><svg class="health-logo-icon"
+                      style="outline:0" width="70px" height="70px" viewBox="0 0 99.85 27.51" fill="#0C0C0C"
+                      xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                      <path fill="#37b34a"
+                        d="M45.52 1.12a4.57 4.57 0 0 0-1.05.13 4.84 4.84 0 0 0-.13 1.08 4.79 4.79 0 0 0 4.73 4.85 4.58 4.58 0 0 0 1-.14A4.7 4.7 0 0 0 50.25 6a4.79 4.79 0 0 0-4.73-4.88zM52.56 4.6a1.51 1.51 0 0 1 .42.05 2.12 2.12 0 0 1 .05.44 2.16 2.16 0 0 1-2 2.07 1.86 1.86 0 0 1-.42 0 2 2 0 0 1 0-.43 2.24 2.24 0 0 1 1.95-2.13z">
+                      </path>
+                      <path
+                        d="M28.16 27.51a9.19 9.19 0 0 1-6.85-3 9.92 9.92 0 0 1-2.8-7.07v-.27a10 10 0 0 1 2.93-6.88A8.62 8.62 0 0 1 28 7.66a9.32 9.32 0 0 1 6.86 2.69 9.69 9.69 0 0 1 2.9 6.89 1.47 1.47 0 0 1 0 .41 1.5 1.5 0 0 1-1.58 1.28H21.94a6.32 6.32 0 0 0 1.8 3.38 5.94 5.94 0 0 0 2 1.41 6.38 6.38 0 0 0 2.41.45 6.2 6.2 0 0 0 2.77-.67l.13-.07a6.4 6.4 0 0 0 2.29-2.1 1.57 1.57 0 0 1 1.09-.73h.23a1.7 1.7 0 0 1 1 .35 1.77 1.77 0 0 1 .62 1 .9.9 0 0 1 0 .25 1.6 1.6 0 0 1-.36 1.1l-.09.1a9.18 9.18 0 0 1-1.31 1.6 10 10 0 0 1-1.9 1.38 9.17 9.17 0 0 1-4.46 1.13zm6.08-11.89a6.34 6.34 0 0 0-.51-1.32 7.05 7.05 0 0 0-1.32-1.76 6.54 6.54 0 0 0-2-1.26 5.89 5.89 0 0 0-2.27-.45 6 6 0 0 0-4.29 1.75l-.32.3A6.51 6.51 0 0 0 22 15.62zm23 11.85a1.69 1.69 0 0 1-1.11-.47 1.91 1.91 0 0 1-.5-1.23v-.87a12.22 12.22 0 0 1-1.34 1 9 9 0 0 1-5 1.48 9.26 9.26 0 0 1-6.82-2.92 10 10 0 0 1-2.79-7.07 10.11 10.11 0 0 1 .71-3.8 10.57 10.57 0 0 1 2.06-3.22 8.79 8.79 0 0 1 6.68-2.78 9.43 9.43 0 0 1 7 2.76 9.94 9.94 0 0 1 2.79 7v8.35a1.72 1.72 0 0 1-.46 1.3 2 2 0 0 1-.54.37 1.57 1.57 0 0 1-.67.1zm-8-16.66a6 6 0 0 0-4.48 1.95 6.6 6.6 0 0 0-1.76 4.7 6.71 6.71 0 0 0 1.88 4.74 6.09 6.09 0 0 0 8.92 0 6.71 6.71 0 0 0 1.88-4.73 6.61 6.61 0 0 0-1.88-4.7 6 6 0 0 0-4.5-1.96zm48.98 16.62a1.63 1.63 0 0 1-1.16-.43 1.75 1.75 0 0 1-.33-.54 1.64 1.64 0 0 1-.12-.63V15.62a4.83 4.83 0 0 0-1.39-3.44A4.34 4.34 0 0 0 92 10.72a4.4 4.4 0 0 0-3.28 1.46 4.82 4.82 0 0 0-1.37 3.44v10.17a1.52 1.52 0 0 1-.58 1.21 1.39 1.39 0 0 1-1.09.46 1.56 1.56 0 0 1-1.16-.51 1.45 1.45 0 0 1-.45-1.13V1.66a1.62 1.62 0 0 1 .45-1.15A1.59 1.59 0 0 1 85.68 0a1.5 1.5 0 0 1 1.17.54 1.5 1.5 0 0 1 .46 1.12V9a6.89 6.89 0 0 1 .69-.45 7.47 7.47 0 0 1 3.77-1 7.75 7.75 0 0 1 5.77 2.3 8 8 0 0 1 2.29 5.74v10.2a1.91 1.91 0 0 1-.13.84l-.35.34a1.68 1.68 0 0 1-1.13.46zm-84.06 0A1.62 1.62 0 0 1 13 27a1.87 1.87 0 0 1-.33-.54 1.68 1.68 0 0 1-.12-.63V15.62a4.8 4.8 0 0 0-1.4-3.44 4.38 4.38 0 0 0-6.53 0 4.79 4.79 0 0 0-1.38 3.44v10.17A1.48 1.48 0 0 1 2.7 27a1.36 1.36 0 0 1-1.09.46 1.56 1.56 0 0 1-1.16-.51A1.5 1.5 0 0 1 0 25.79V1.66A1.66 1.66 0 0 1 .45.51 1.59 1.59 0 0 1 1.61 0a1.48 1.48 0 0 1 1.17.54 1.5 1.5 0 0 1 .46 1.12V9A8.17 8.17 0 0 1 4 8.55a5.5 5.5 0 0 1 1.6-.65h.11a7.34 7.34 0 0 1 2.07-.29 7.73 7.73 0 0 1 5.76 2.3 8.06 8.06 0 0 1 2.3 5.74v10.14a1.57 1.57 0 0 1-.18.75l.07.07-.43.39a1.65 1.65 0 0 1-1.14.43zm63.51 0a1.75 1.75 0 0 1-1-.34 10.51 10.51 0 0 1-4.17-8.13V1.69a1.7 1.7 0 0 1 .48-1.2A1.58 1.58 0 0 1 74.13 0a1.61 1.61 0 0 1 .63.12 1.49 1.49 0 0 1 .54.37 1.47 1.47 0 0 1 .35.55 1.84 1.84 0 0 1 .11.65v6.22h4.35a1.52 1.52 0 0 1 1.66 1.52 1.57 1.57 0 0 1-1.66 1.51h-4.35v7.8a7.09 7.09 0 0 0 .51 2.64 7.53 7.53 0 0 0 2.44 3.05 1.67 1.67 0 0 1 .69 1.21 1.58 1.58 0 0 1-.52 1.27 1.73 1.73 0 0 1-1.21.48zm-9.82-.07a1.72 1.72 0 0 1-1-.35 12.81 12.81 0 0 1-1.12-1 10.09 10.09 0 0 1-2.18-3.26 10.83 10.83 0 0 1-.75-3.86V1.67a1.74 1.74 0 0 1 .1-.61 1.55 1.55 0 0 1 .3-.57A1.73 1.73 0 0 1 64.4 0a1.67 1.67 0 0 1 .65.12 1.83 1.83 0 0 1 .53.34 1.59 1.59 0 0 1 .38.6 1.74 1.74 0 0 1 .1.61v17a7.38 7.38 0 0 0 .48 2.67 6.37 6.37 0 0 0 2.37 3.06 1.68 1.68 0 0 1 .66 1.18 1.6 1.6 0 0 1-.47 1.24 1.75 1.75 0 0 1-1.25.52z">
+                      </path>
+                    </svg></a></div>
+                <div class="Flex-sc-1sqrs56-0 sc-gmeYpB sc-kZmsYB jvcaA">
+                  <nav mode="light" data-role="nav-links" class="sc-jzJRlG dkoMrm">
+                    <ul mode="light" type="collapsed" class="sc-cSHVUG bYPcOh">
+                      <li mode="light" type="collapsed" data-section="life, but better" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="life-but-better"
+                          href="https://edition.cnn.com/specials/health/life-but-better" data-analytics="header_top-nav"
+                          title="visit the Life, But Better section" class="sc-fjdhpX sc-chPdSV jYBUnZ">Life, But
+                          Better</a></li>
+                      <li mode="light" type="collapsed" data-section="fitness" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="fitness"
+                          href="https://edition.cnn.com/specials/health/fitness-life-but-better"
+                          data-analytics="header_top-nav" title="visit the Fitness section"
+                          class="sc-fjdhpX sc-chPdSV jYBUnZ">Fitness</a></li>
+                      <li mode="light" type="collapsed" data-section="food" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="food"
+                          href="https://edition.cnn.com/specials/health/food-life-but-better"
+                          data-analytics="header_top-nav" title="visit the Food section"
+                          class="sc-fjdhpX sc-chPdSV jYBUnZ">Food</a></li>
+                      <li mode="light" type="collapsed" data-section="sleep" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="sleep"
+                          href="https://edition.cnn.com/specials/health/sleep-life-but-better"
+                          data-analytics="header_top-nav" title="visit the Sleep section"
+                          class="sc-fjdhpX sc-chPdSV jYBUnZ">Sleep</a></li>
+                      <div data-test="moreMenu" tabindex="-1" class="Box-sc-1fet97o-0 sc-dxgOiQ kSDyWc">
+                        <div tabindex="0" style="outline:0" class="Flex-sc-1sqrs56-0 sc-kEYyzF fzvfU">
+                          <li type="collapsed" class="sc-kAzzGY sc-kkGfuU atKKY">More</li>
+                        </div>
+                        <div class="Box-sc-1fet97o-0 sc-ckVGcZ kgLhhE">
+                          <ul class="sc-jKJlTe gaDMIy">
+                            <li mode="light" type="collapsed" data-section="mindfulness" data-selected="false"
+                              class="sc-iAyFgw cXZveS"><a mode="light" type="collapsed" name="mindfulness"
+                                href="https://edition.cnn.com/specials/health/mindfulness-life-but-better"
+                                data-analytics="header_top-nav" title="visit the Mindfulness section" color="#0C0C0C"
+                                class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-hSdWYo kGjTKt">Mindfulness</a></li>
+                            <li mode="light" type="collapsed" data-section="relationships" data-selected="false"
+                              class="sc-iAyFgw cXZveS"><a mode="light" type="collapsed" name="relationships"
+                                href="https://edition.cnn.com/specials/health/relationships-life-but-better"
+                                data-analytics="header_top-nav" title="visit the Relationships section" color="#0C0C0C"
+                                class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-hSdWYo kGjTKt">Relationships</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="Box-sc-1fet97o-0 kcHWkA"></div>
+                <div class="Flex-sc-1sqrs56-0 sc-clNaTc eDuRMD"><a href="https://edition.cnn.com/audio"
+                    aria-label="AudioLink" target="_blank" rel="noopener noreferrer" mode="light" color="#4D4D4D"
+                    class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-jeCdPy kANXNe"><span data-test="audio-copy"
+                      class="Text-sc-1amvtpj-0-span sc-jtRlXQ hiZBuY">Audio</span></a></div>
+                <div class="Flex-sc-1sqrs56-0 sc-gmeYpB issgzJ"><button tabindex="-1" data-test="searchButton"
+                    data-zjs="click" data-zjs-campaign="header-search-icon" class="sc-bdVaJa sc-jKVCRD bbcXuS"><svg
+                      class="search-icon" style="outline:0" width="24" height="24" viewBox="0 0 64 64"
+                      fill="currentColor" tabindex="0" focusable="true" xmlns="https://www.w3.org/2000/svg"
+                      aria-labelledby="searchIconTitle" role="img">
+                      <title id="searchIconTitle">Search CNN</title>
+                      <path
+                        d="M55.3,51.89,42.46,39a19.22,19.22,0,1,0-3.38,3.43L51.9,55.29a2.38,2.38,0,0,0,3.4,0A2.42,2.42,0,0,0,55.3,51.89ZM11.2,27.28a16,16,0,1,1,16,16.07A16.07,16.07,0,0,1,11.2,27.28Z">
+                      </path>
+                    </svg></button></div>
+              </div>
+            </div>
+            <div style="false:unset" class="Grid-sc-1kcyc0j-0 sc-iBEsjs sc-chbbiW TPaxR">
+              <div class="Cell-i0zvfi-0 sc-kxynE fMHSrm">
+                <div class="Box-sc-1fet97o-0 sc-fcdeBU fXaWsC">
+                  <nav mode="light" data-role="nav-links" class="sc-jzJRlG dkoMrm">
+                    <ul mode="light" type="collapsed" class="sc-cSHVUG bYPcOh">
+                      <li mode="light" type="collapsed" data-section="life, but better" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="life-but-better"
+                          href="https://edition.cnn.com/specials/health/life-but-better"
+                          data-analytics="header_expanded-nav" title="visit the Life, But Better section"
+                          class="sc-fjdhpX sc-chPdSV bjbNag">Life, But Better</a></li>
+                      <li mode="light" type="collapsed" data-section="fitness" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="fitness"
+                          href="https://edition.cnn.com/specials/health/fitness-life-but-better"
+                          data-analytics="header_expanded-nav" title="visit the Fitness section"
+                          class="sc-fjdhpX sc-chPdSV bjbNag">Fitness</a></li>
+                      <li mode="light" type="collapsed" data-section="food" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="food"
+                          href="https://edition.cnn.com/specials/health/food-life-but-better"
+                          data-analytics="header_expanded-nav" title="visit the Food section"
+                          class="sc-fjdhpX sc-chPdSV bjbNag">Food</a></li>
+                      <li mode="light" type="collapsed" data-section="sleep" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="sleep"
+                          href="https://edition.cnn.com/specials/health/sleep-life-but-better"
+                          data-analytics="header_expanded-nav" title="visit the Sleep section"
+                          class="sc-fjdhpX sc-chPdSV bjbNag">Sleep</a></li>
+                      <li mode="light" type="collapsed" data-section="mindfulness" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="mindfulness"
+                          href="https://edition.cnn.com/specials/health/mindfulness-life-but-better"
+                          data-analytics="header_expanded-nav" title="visit the Mindfulness section"
+                          class="sc-fjdhpX sc-chPdSV bjbNag">Mindfulness</a></li>
+                      <li mode="light" type="collapsed" data-section="relationships" data-selected="false"
+                        class="sc-kAzzGY ciMjLG"><a mode="light" type="collapsed" name="relationships"
+                          href="https://edition.cnn.com/specials/health/relationships-life-but-better"
+                          data-analytics="header_expanded-nav" title="visit the Relationships section"
+                          class="sc-fjdhpX sc-chPdSV bjbNag">Relationships</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="Box-sc-1fet97o-0 kJrFkT">
+                  <form action="https://edition.cnn.com/search" name="q" class="sc-eHgmQL hmwpNj"><input type="search"
+                      autocomplete="off" id="header-search-bar" name="q" placeholder="Search CNN..." data-zjs="click"
+                      data-zjs-campaign="header-expanded-search-btn" class="sc-cvbbAY jdhELR"><button color="inherit"
+                      width="24,,80" tabindex="0" aria-label="Search" class="Flex-sc-1sqrs56-0 sc-jWBwVP JwELA">
+                      <div class="Text-sc-1amvtpj-0 gYetWy">Search</div>
+                      <div class="Box-sc-1fet97o-0 bQmsQJ"><svg class="arrow-right-10-icon" style="outline:0" width="10"
+                          height="10" viewBox="0 0 20 20" fill="#4D4D4D" tabindex="-1" focusable="false"
+                          xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                          <path
+                            d="M1.53,8.52H14.76L10,3.71a1.5,1.5,0,0,1,2.12-2.12l7.44,7.47a1.49,1.49,0,0,1,0,2.12l-7.44,7.47a1.5,1.5,0,0,1-2.12,0,1.51,1.51,0,0,1,0-2.12l5-5H1.53a1.5,1.5,0,1,1,0-3Z">
+                          </path>
+                        </svg></div>
+                      <div class="Box-sc-1fet97o-0 fyifOt"><svg class="search-icon" style="outline:0" width="24"
+                          height="24" viewBox="0 0 64 64" fill="#4D4D4D" tabindex="-1" focusable="false"
+                          xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                          <path
+                            d="M55.3,51.89,42.46,39a19.22,19.22,0,1,0-3.38,3.43L51.9,55.29a2.38,2.38,0,0,0,3.4,0A2.42,2.42,0,0,0,55.3,51.89ZM11.2,27.28a16,16,0,1,1,16,16.07A16.07,16.07,0,0,1,11.2,27.28Z">
+                          </path>
+                        </svg></div>
+                    </button></form>
+                </div>
+                <div class="Box-sc-1fet97o-0 sc-fcdeBU euNqnR">
+                  <div class="Flex-sc-1sqrs56-0 sc-jXQZqI bDouve">
+                    <div class="Flex-sc-1sqrs56-0 sc-kasBVs kMsBRe"><a href="https://edition.cnn.com/audio"
+                        aria-label="AudioLink" target="_blank" rel="noopener noreferrer" mode="light" color="#4D4D4D"
+                        class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-jeCdPy kANXNe"><span data-test="audio-copy"
+                          class="Text-sc-1amvtpj-0-span sc-jtRlXQ hiZBuY">Audio</span></a></div>
+                    <hr mode="light" class="sc-cooIXK gDsExL">
+                  </div>
+                  <div id="edition-picker-mobile" data-open="false" tabindex="-1" data-zjs="click"
+                    data-zjs-campaign="header-edition-picker" class="Box-sc-1fet97o-0 sc-kLIISr jFRgDE">
+                    <div role="button" id="edition-picker-toggle-mobile" tabindex="0" style="outline:0"
+                      class="Flex-sc-1sqrs56-0 sc-dEoRIm jPNZDj"><span
+                        class="Text-sc-1amvtpj-0-span sc-jtggT hqACIt">Edition</span><svg
+                        class="sc-qrIAp kxPfDD caret-down-10-icon" style="outline:0" width="64" height="64"
+                        viewBox="0 0 20 20" fill="" xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                        <path
+                          d="M19.33,4.3a1.65,1.65,0,0,0-2.16.25L10,12h0L2.84,4.55A1.67,1.67,0,0,0,.66,4.3,1.74,1.74,0,0,0,.47,6.85l8.28,8.62a1.73,1.73,0,0,0,2.5,0l8.28-8.62A1.72,1.72,0,0,0,19.33,4.3Z">
+                        </path>
+                      </svg></div>
+                    <div class="Box-sc-1fet97o-0 sc-iqzUVk bPePZp">
+                      <ul class="sc-ipZHIp fLyFnQ">
+                        <li data-value="domestic" class="sc-iGrrsa iloGvj"><a
+                            href="https://us.cnn.com/?hpt=header_edition-picker" name="domestic" data-selected="false"
+                            color="#0C0C0C" mode="light"
+                            class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-bmyXtO bUGMpB">US</a></li>
+                        <li data-value="international" class="sc-iGrrsa iloGvj"><a
+                            href="https://edition.cnn.com/?hpt=header_edition-picker" name="international"
+                            data-selected="true" color="#0C0C0C" mode="light"
+                            class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-bmyXtO bUGMpB">International</a></li>
+                        <li data-value="arabic" class="sc-iGrrsa iloGvj"><a
+                            href="https://arabic.cnn.com/?hpt=header_edition-picker" name="arabic" data-selected="false"
+                            color="#0C0C0C" mode="light"
+                            class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-bmyXtO bUGMpB">Arabic</a></li>
+                        <li data-value="espanol" class="sc-iGrrsa iloGvj"><a
+                            href="https://cnnespanol.cnn.com/?hpt=header_edition-picker" name="espanol"
+                            data-selected="false" color="#0C0C0C" mode="light"
+                            class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-bmyXtO bUGMpB">Español</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr mode="light" class="sc-cooIXK gDsExL">
+                </div>
+                <div class="Flex-sc-1sqrs56-0 sc-gmeYpB ipxSNp">
+                  <div class="Flex-sc-1sqrs56-0 sc-iSDuPN hplyTZ">
+                    <div class="Flex-sc-1sqrs56-0 sc-eInJlc dGSQTp">
+                      <ul data-test="editionPickerList" class="sc-gtfDJT gFhgRg">
+                        <li class="sc-fOICqy blcaF"><a aria-label="title" mode="light" color="#0C0C0C"
+                            class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-hgHYgh jHyCDM">Edition</a></li>
+                        <li data-value="domestic" class="sc-fOICqy blcaF"><a mode="light"
+                            href="https://us.cnn.com/?hpt=header_edition-picker" name="domestic" data-selected="false"
+                            color="#0C0C0C" class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-hzDEsm fHPxX">US</a></li>
+                        <li data-value="international" class="sc-fOICqy blcaF"><a mode="light"
+                            href="https://edition.cnn.com/?hpt=header_edition-picker" name="international"
+                            data-selected="true" color="#0C0C0C"
+                            class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-hzDEsm fHPxX">International</a></li>
+                        <li data-value="arabic" class="sc-fOICqy blcaF"><a mode="light"
+                            href="https://arabic.cnn.com/?hpt=header_edition-picker" name="arabic" data-selected="false"
+                            color="#0C0C0C" class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-hzDEsm fHPxX">Arabic</a>
+                        </li>
+                        <li data-value="espanol" class="sc-fOICqy blcaF"><a mode="light"
+                            href="https://cnnespanol.cnn.com/?hpt=header_edition-picker" name="espanol"
+                            data-selected="false" color="#0C0C0C"
+                            class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-hzDEsm fHPxX">Español</a></li>
+                      </ul>
+                    </div>
+                    <hr mode="light" class="sc-cooIXK iwnilq">
+                  </div>
+                </div>
+                <div class="Box-sc-1fet97o-0 sc-fcdeBU dwPUnN">
+                  <div size="40" class="Flex-sc-1sqrs56-0 sc-iwsKbI YyuVL"><a href="https://edition.cnn.com/"
+                      aria-label="CNN" data-analytics="header_expanded-nav" color="#0C0C0C" mode="light"
+                      class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 jlzTwO"><svg class="cnn-badge-icon" style="outline:0"
+                        width="40" height="40" viewBox="0 0 240 240" fill="#CC0000" xmlns="https://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <rect x="0" y="0" width="100%" height="100%" fill="#fff"></rect>
+                        <path
+                          d="M.31-.07v240h240V-.07ZM86.54,135.29V92.51c0-16.1,20.81-23.83,31.82-5.12.8,1.35,18.14,31.22,18.14,31.22V92.51c0-16.1,20.8-23.83,31.81-5.12.8,1.35,18.14,31.22,18.14,31.22V76.79h10.38V147a2.11,2.11,0,0,1-1.51,2.14c-1.1.3-2.26-.38-3.11-1.82-.17-.28-9-15.46-17.48-30.13L159.17,90.4c-2.18-3.7-5.43-4.35-7.74-3.72a6.23,6.23,0,0,0-4.55,6.13V147a2.12,2.12,0,0,1-1.51,2.14c-1.11.3-2.27-.38-3.11-1.82-.15-.25-8.34-14.36-16.25-28-10.08-17.38-16.7-28.78-16.8-28.95-2.18-3.71-5.44-4.35-7.77-3.72a6.24,6.24,0,0,0-4.56,6.13v53.05a2.9,2.9,0,0,1-2.72,2.71H67.23a28.64,28.64,0,0,1,0-57.28h14v10.36H67.35a18.28,18.28,0,1,0,0,36.56H83.68A2.84,2.84,0,0,0,86.54,135.29Zm124.77,12.05c0,16.1-20.81,23.83-31.82,5.13-.79-1.35-18.14-31.23-18.14-31.23v26.1c0,16.1-20.8,23.83-31.81,5.13-.8-1.35-18.14-31.23-18.14-31.23v24.61c0,11.17-6.63,17.22-17,17.22H67.25a43.14,43.14,0,0,1,0-86.28h14V87.15h-14a32.78,32.78,0,1,0,0,65.56H94.16a7,7,0,0,0,6.86-6.85V92.81a2.1,2.1,0,0,1,1.51-2.13c1.1-.3,2.26.38,3.11,1.82l16.79,28.93c9.76,16.83,16.17,27.88,16.25,28,2.19,3.7,5.45,4.35,7.78,3.71A6.22,6.22,0,0,0,151,147V92.82a2.11,2.11,0,0,1,1.49-2.14c1.09-.3,2.24.38,3.08,1.82l15.56,26.81,17.49,30.15c1.71,2.9,4.09,3.93,6.16,3.93a6,6,0,0,0,1.61-.22A6.23,6.23,0,0,0,201,147V76.79h10.34Z"
+                          transform="translate(-0.31 0.07)"></path>
+                      </svg></a></div>
+                </div>
+                <div class="Box-sc-1fet97o-0 jSTOdN">
+                  <nav mode="light" data-role="nav-links" class="sc-jzJRlG dkoMrm">
+                    <ul mode="light" type="expanded" class="sc-cSHVUG gWEcfQ">
+                      <li mode="light" type="expanded" data-section="world" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="world" href="https://edition.cnn.com/world"
+                          data-analytics="header_expanded-nav" title="visit the World section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">World</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="africa"
+                              href="https://edition.cnn.com/world/africa" data-analytics="header_expanded-nav"
+                              title="visit the Africa section" class="sc-fjdhpX sc-kpOJdX tqJTs">Africa</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="americas"
+                              href="https://edition.cnn.com/world/americas" data-analytics="header_expanded-nav"
+                              title="visit the Americas section" class="sc-fjdhpX sc-kpOJdX tqJTs">Americas</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="asia"
+                              href="https://edition.cnn.com/world/asia" data-analytics="header_expanded-nav"
+                              title="visit the Asia section" class="sc-fjdhpX sc-kpOJdX tqJTs">Asia</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="australia"
+                              href="https://edition.cnn.com/world/australia" data-analytics="header_expanded-nav"
+                              title="visit the Australia section" class="sc-fjdhpX sc-kpOJdX tqJTs">Australia</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="china"
+                              href="https://edition.cnn.com/world/china" data-analytics="header_expanded-nav"
+                              title="visit the China section" class="sc-fjdhpX sc-kpOJdX tqJTs">China</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="europe"
+                              href="https://edition.cnn.com/world/europe" data-analytics="header_expanded-nav"
+                              title="visit the Europe section" class="sc-fjdhpX sc-kpOJdX tqJTs">Europe</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="india"
+                              href="https://edition.cnn.com/india" data-analytics="header_expanded-nav"
+                              title="visit the India section" class="sc-fjdhpX sc-kpOJdX tqJTs">India</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="middleeast"
+                              href="https://edition.cnn.com/world/middle-east" data-analytics="header_expanded-nav"
+                              title="visit the Middle East section" class="sc-fjdhpX sc-kpOJdX tqJTs">Middle East</a>
+                          </li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="uk"
+                              href="https://edition.cnn.com/world/united-kingdom" data-analytics="header_expanded-nav"
+                              title="visit the United Kingdom section" class="sc-fjdhpX sc-kpOJdX tqJTs">United
+                              Kingdom</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="us politics" class="sc-kAzzGY fDMFSn"><a
+                          mode="light" type="expanded" name="politics" href="https://edition.cnn.com/politics"
+                          data-analytics="header_expanded-nav" title="visit the US Politics section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">US Politics</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="the-biden-presidency"
+                              href="https://edition.cnn.com/specials/politics/joe-biden-news"
+                              data-analytics="header_expanded-nav" title="visit the The Biden Presidency section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">The Biden Presidency</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="facts-first"
+                              href="https://edition.cnn.com/specials/politics/fact-check-politics"
+                              data-analytics="header_expanded-nav" title="visit the Facts First section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Facts First</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="us-elections"
+                              href="https://edition.cnn.com/election/2022" data-analytics="header_expanded-nav"
+                              title="visit the 2022 Midterms section" class="sc-fjdhpX sc-kpOJdX tqJTs">2022
+                              Midterms</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="business" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="business" href="https://edition.cnn.com/business"
+                          data-analytics="header_expanded-nav" title="visit the Business section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Business</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="tech"
+                              href="https://edition.cnn.com/business/tech" data-analytics="header_expanded-nav"
+                              title="visit the Tech section" class="sc-fjdhpX sc-kpOJdX tqJTs">Tech</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="media"
+                              href="https://edition.cnn.com/business/media" data-analytics="header_expanded-nav"
+                              title="visit the Media section" class="sc-fjdhpX sc-kpOJdX tqJTs">Media</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="success"
+                              href="https://edition.cnn.com/business/success" data-analytics="header_expanded-nav"
+                              title="visit the Success section" class="sc-fjdhpX sc-kpOJdX tqJTs">Success</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="perspectives"
+                              href="https://edition.cnn.com/business/perspectives" data-analytics="header_expanded-nav"
+                              title="visit the Perspectives section" class="sc-fjdhpX sc-kpOJdX tqJTs">Perspectives</a>
+                          </li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="business-videos"
+                              href="https://edition.cnn.com/business/videos" data-analytics="header_expanded-nav"
+                              title="visit the Videos section" class="sc-fjdhpX sc-kpOJdX tqJTs">Videos</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="markets" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="markets" href="https://edition.cnn.com/markets"
+                          data-analytics="header_expanded-nav" title="visit the Markets section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Markets</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="premarkets"
+                              href="https://edition.cnn.com/business/markets/premarkets"
+                              data-analytics="header_expanded-nav" title="visit the Pre-markets section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Pre-markets</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="after-hours"
+                              href="https://money.cnn.com/data/afterhours/" data-analytics="header_expanded-nav"
+                              title="visit the After-Hours section" class="sc-fjdhpX sc-kpOJdX tqJTs">After-Hours</a>
+                          </li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="market-movers"
+                              href="https://money.cnn.com/data/hotstocks/" data-analytics="header_expanded-nav"
+                              title="visit the Market Movers section" class="sc-fjdhpX sc-kpOJdX tqJTs">Market
+                              Movers</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="fear-greed"
+                              href="https://edition.cnn.com/markets/fear-and-greed" data-analytics="header_expanded-nav"
+                              title="visit the Fear &amp; Greed section" class="sc-fjdhpX sc-kpOJdX tqJTs">Fear &amp;
+                              Greed</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="world-markets"
+                              href="https://money.cnn.com/data/world_markets/americas/"
+                              data-analytics="header_expanded-nav" title="visit the World Markets section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">World Markets</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="investing"
+                              href="https://edition.cnn.com/business/investing" data-analytics="header_expanded-nav"
+                              title="visit the Investing section" class="sc-fjdhpX sc-kpOJdX tqJTs">Investing</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="markets-now"
+                              href="https://edition.cnn.com/specials/investing/markets-now"
+                              data-analytics="header_expanded-nav" title="visit the Markets Now section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Markets Now</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="before-the-bell"
+                              href="https://edition.cnn.com/specials/investing/before-the-bell"
+                              data-analytics="header_expanded-nav" title="visit the Before the Bell section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Before the Bell</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="nightcap"
+                              href="https://edition.cnn.com/specials/business/nightcap"
+                              data-analytics="header_expanded-nav" title="visit the Nightcap section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Nightcap</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="health" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="health" href="https://edition.cnn.com/health"
+                          data-analytics="header_expanded-nav" title="visit the Health section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Health</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="life-but-better"
+                              href="https://edition.cnn.com/specials/health/life-but-better"
+                              data-analytics="header_expanded-nav" title="visit the Life, But Better section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Life, But Better</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="fitness"
+                              href="https://edition.cnn.com/specials/health/fitness-life-but-better"
+                              data-analytics="header_expanded-nav" title="visit the Fitness section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Fitness</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="food"
+                              href="https://edition.cnn.com/specials/health/food-life-but-better"
+                              data-analytics="header_expanded-nav" title="visit the Food section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Food</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="sleep"
+                              href="https://edition.cnn.com/specials/health/sleep-life-but-better"
+                              data-analytics="header_expanded-nav" title="visit the Sleep section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Sleep</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="mindfulness"
+                              href="https://edition.cnn.com/specials/health/mindfulness-life-but-better"
+                              data-analytics="header_expanded-nav" title="visit the Mindfulness section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Mindfulness</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="relationships"
+                              href="https://edition.cnn.com/specials/health/relationships-life-but-better"
+                              data-analytics="header_expanded-nav" title="visit the Relationships section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Relationships</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="entertainment" class="sc-kAzzGY fDMFSn"><a
+                          mode="light" type="expanded" name="entertainment" href="https://edition.cnn.com/entertainment"
+                          data-analytics="header_expanded-nav" title="visit the Entertainment section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Entertainment</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="screen"
+                              href="https://edition.cnn.com/entertainment/movies" data-analytics="header_expanded-nav"
+                              title="visit the Movies section" class="sc-fjdhpX sc-kpOJdX tqJTs">Movies</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="binge"
+                              href="https://edition.cnn.com/entertainment/tv-shows" data-analytics="header_expanded-nav"
+                              title="visit the Television section" class="sc-fjdhpX sc-kpOJdX tqJTs">Television</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="stars"
+                              href="https://edition.cnn.com/entertainment/celebrities"
+                              data-analytics="header_expanded-nav" title="visit the Celebrity section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Celebrity</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="tech" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="tech" href="https://edition.cnn.com/business/tech"
+                          data-analytics="header_expanded-nav" title="visit the Tech section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Tech</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="innovate"
+                              href="https://edition.cnn.com/specials/tech/innovate" data-analytics="header_expanded-nav"
+                              title="visit the Innovate section" class="sc-fjdhpX sc-kpOJdX tqJTs">Innovate</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="gadget"
+                              href="https://edition.cnn.com/specials/tech/gadget" data-analytics="header_expanded-nav"
+                              title="visit the Gadget section" class="sc-fjdhpX sc-kpOJdX tqJTs">Gadget</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="foreseeable-future"
+                              href="https://edition.cnn.com/specials/tech/foreseeable-future"
+                              data-analytics="header_expanded-nav" title="visit the Foreseeable Future section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Foreseeable Future</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="mission-ahead"
+                              href="https://edition.cnn.com/specials/tech/mission-ahead"
+                              data-analytics="header_expanded-nav" title="visit the Mission: Ahead section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Mission: Ahead</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="upstarts"
+                              href="https://edition.cnn.com/specials/tech/upstarts" data-analytics="header_expanded-nav"
+                              title="visit the Upstarts section" class="sc-fjdhpX sc-kpOJdX tqJTs">Upstarts</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="work-transformed"
+                              href="https://edition.cnn.com/specials/tech/work-transformed"
+                              data-analytics="header_expanded-nav" title="visit the Work Transformed section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Work Transformed</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="innovative-cities"
+                              href="https://edition.cnn.com/specials/tech/innovative-cities"
+                              data-analytics="header_expanded-nav" title="visit the Innovative Cities section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Innovative Cities</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="style" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="style" href="https://edition.cnn.com/style"
+                          data-analytics="header_expanded-nav" title="visit the Style section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Style</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="arts"
+                              href="https://edition.cnn.com/style/arts" data-analytics="header_expanded-nav"
+                              title="visit the Arts section" class="sc-fjdhpX sc-kpOJdX tqJTs">Arts</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="design"
+                              href="https://edition.cnn.com/style/design" data-analytics="header_expanded-nav"
+                              title="visit the Design section" class="sc-fjdhpX sc-kpOJdX tqJTs">Design</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="fashion"
+                              href="https://edition.cnn.com/style/fashion" data-analytics="header_expanded-nav"
+                              title="visit the Fashion section" class="sc-fjdhpX sc-kpOJdX tqJTs">Fashion</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="architecture"
+                              href="https://edition.cnn.com/style/architecture" data-analytics="header_expanded-nav"
+                              title="visit the Architecture section" class="sc-fjdhpX sc-kpOJdX tqJTs">Architecture</a>
+                          </li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="luxury"
+                              href="https://edition.cnn.com/style/luxury" data-analytics="header_expanded-nav"
+                              title="visit the Luxury section" class="sc-fjdhpX sc-kpOJdX tqJTs">Luxury</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="beauty"
+                              href="https://edition.cnn.com/style/beauty" data-analytics="header_expanded-nav"
+                              title="visit the Beauty section" class="sc-fjdhpX sc-kpOJdX tqJTs">Beauty</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="Video"
+                              href="https://edition.cnn.com/style/videos" data-analytics="header_expanded-nav"
+                              title="visit the Video section" class="sc-fjdhpX sc-kpOJdX tqJTs">Video</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="travel" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="travel" href="https://edition.cnn.com/travel"
+                          data-analytics="header_expanded-nav" title="visit the Travel section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Travel</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="destinations"
+                              href="https://edition.cnn.com/travel/destinations" data-analytics="header_expanded-nav"
+                              title="visit the Destinations section" class="sc-fjdhpX sc-kpOJdX tqJTs">Destinations</a>
+                          </li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="foodanddrink"
+                              href="https://edition.cnn.com/travel/food-and-drink" data-analytics="header_expanded-nav"
+                              title="visit the Food and Drink section" class="sc-fjdhpX sc-kpOJdX tqJTs">Food and
+                              Drink</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="Stay"
+                              href="https://edition.cnn.com/travel/stay" data-analytics="header_expanded-nav"
+                              title="visit the Stay section" class="sc-fjdhpX sc-kpOJdX tqJTs">Stay</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="News"
+                              href="https://edition.cnn.com/travel/news" data-analytics="header_expanded-nav"
+                              title="visit the News section" class="sc-fjdhpX sc-kpOJdX tqJTs">News</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="Videos"
+                              href="https://edition.cnn.com/travel/videos" data-analytics="header_expanded-nav"
+                              title="visit the Videos section" class="sc-fjdhpX sc-kpOJdX tqJTs">Videos</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="sports" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="sport" href="https://edition.cnn.com/sport"
+                          data-analytics="header_expanded-nav" title="visit the Sports section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Sports</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="football"
+                              href="https://edition.cnn.com/sport/football" data-analytics="header_expanded-nav"
+                              title="visit the Football section" class="sc-fjdhpX sc-kpOJdX tqJTs">Football</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="tennis"
+                              href="https://edition.cnn.com/sport/tennis" data-analytics="header_expanded-nav"
+                              title="visit the Tennis section" class="sc-fjdhpX sc-kpOJdX tqJTs">Tennis</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="golf"
+                              href="https://edition.cnn.com/sport/golf" data-analytics="header_expanded-nav"
+                              title="visit the Golf section" class="sc-fjdhpX sc-kpOJdX tqJTs">Golf</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="motorsport"
+                              href="https://edition.cnn.com/sport/motorsport" data-analytics="header_expanded-nav"
+                              title="visit the Motorsport section" class="sc-fjdhpX sc-kpOJdX tqJTs">Motorsport</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="us-sports"
+                              href="https://edition.cnn.com/sport/us-sports" data-analytics="header_expanded-nav"
+                              title="visit the US Sports section" class="sc-fjdhpX sc-kpOJdX tqJTs">US Sports</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="Olympics"
+                              href="https://edition.cnn.com/sport/paris-olympics-2024"
+                              data-analytics="header_expanded-nav" title="visit the Olympics section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Olympics</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="climbing"
+                              href="https://edition.cnn.com/sport/climbing" data-analytics="header_expanded-nav"
+                              title="visit the Climbing section" class="sc-fjdhpX sc-kpOJdX tqJTs">Climbing</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="esports"
+                              href="https://edition.cnn.com/sport/esports" data-analytics="header_expanded-nav"
+                              title="visit the Esports section" class="sc-fjdhpX sc-kpOJdX tqJTs">Esports</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="videos" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="videos" href="https://edition.cnn.com/videos"
+                          data-analytics="header_expanded-nav" title="visit the Videos section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Videos</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="live-tv"
+                              href="https://edition.cnn.com/live-tv" data-analytics="header_expanded-nav"
+                              title="visit the Live TV  section" class="sc-fjdhpX sc-kpOJdX tqJTs">Live TV </a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="digital-studios"
+                              href="https://edition.cnn.com/specials/digital-studios"
+                              data-analytics="header_expanded-nav" title="visit the Digital Studios section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Digital Studios</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="digital-shorts"
+                              href="https://edition.cnn.com/specials/videos/digital-shorts"
+                              data-analytics="header_expanded-nav" title="visit the CNN Films section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">CNN Films</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="hln"
+                              href="https://edition.cnn.com/specials/videos/hln" data-analytics="header_expanded-nav"
+                              title="visit the HLN section" class="sc-fjdhpX sc-kpOJdX tqJTs">HLN</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="tv-schedule"
+                              href="https://edition.cnn.com/tv/schedule/cnn" data-analytics="header_expanded-nav"
+                              title="visit the TV Schedule section" class="sc-fjdhpX sc-kpOJdX tqJTs">TV Schedule</a>
+                          </li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="all-shows"
+                              href="https://edition.cnn.com/specials/tv/all-shows" data-analytics="header_expanded-nav"
+                              title="visit the TV Shows A-Z section" class="sc-fjdhpX sc-kpOJdX tqJTs">TV Shows A-Z</a>
+                          </li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="vr"
+                              href="https://edition.cnn.com/vr" data-analytics="header_expanded-nav"
+                              title="visit the CNNVR section" class="sc-fjdhpX sc-kpOJdX tqJTs">CNNVR</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="features" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="features" href="https://edition.cnn.com/specials"
+                          data-analytics="header_expanded-nav" title="visit the Features section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Features</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="as-equals"
+                              href="https://edition.cnn.com/interactive/asequals/" data-analytics="header_expanded-nav"
+                              title="visit the As Equals section" class="sc-fjdhpX sc-kpOJdX tqJTs">As Equals</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="call-to-earth"
+                              href="https://edition.cnn.com/interactive/call-to-earth/"
+                              data-analytics="header_expanded-nav" title="visit the Call to Earth section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Call to Earth</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="freedom-project"
+                              href="https://edition.cnn.com/specials/world/freedom-project"
+                              data-analytics="header_expanded-nav" title="visit the Freedom Project section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Freedom Project</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="impact-your-world"
+                              href="https://edition.cnn.com/specials/impact-your-world"
+                              data-analytics="header_expanded-nav" title="visit the Impact Your World section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Impact Your World</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="inside-africa"
+                              href="https://edition.cnn.com/specials/africa/inside-africa"
+                              data-analytics="header_expanded-nav" title="visit the Inside Africa section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Inside Africa</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="two-degrees"
+                              href="https://edition.cnn.com/specials/opinions/two-degrees"
+                              data-analytics="header_expanded-nav" title="visit the 2 Degrees section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">2 Degrees</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="cnn-heroes"
+                              href="https://edition.cnn.com/specials/cnn-heroes" data-analytics="header_expanded-nav"
+                              title="visit the CNN Heroes section" class="sc-fjdhpX sc-kpOJdX tqJTs">CNN Heroes</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="all-features"
+                              href="https://edition.cnn.com/specials" data-analytics="header_expanded-nav"
+                              title="visit the All Features section" class="sc-fjdhpX sc-kpOJdX tqJTs">All Features</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="weather" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="weather" href="https://edition.cnn.com/weather"
+                          data-analytics="header_expanded-nav" title="visit the Weather section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">Weather</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="climate"
+                              href="https://edition.cnn.com/specials/world/cnn-climate"
+                              data-analytics="header_expanded-nav" title="visit the Climate section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Climate</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="storm-tracker"
+                              href="https://edition.cnn.com/interactive/2020/weather/gonzalo-storm-path-tracker/index.html"
+                              data-analytics="header_expanded-nav" title="visit the Storm Tracker section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Storm Tracker</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="wildfire-tracker"
+                              href="https://edition.cnn.com/interactive/2020/weather/wildfire-and-air-quality-tracker/"
+                              data-analytics="header_expanded-nav" title="visit the Wildfire Tracker section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Wildfire Tracker</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="weather-video"
+                              href="https://edition.cnn.com/specials/weather/weather-video"
+                              data-analytics="header_expanded-nav" title="visit the Video section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Video</a></li>
+                        </ul>
+                      </li>
+                      <li mode="light" type="expanded" data-section="more" class="sc-kAzzGY fDMFSn"><a mode="light"
+                          type="expanded" name="more" href="https://edition.cnn.com/more"
+                          data-analytics="header_expanded-nav" title="visit the More section"
+                          class="sc-fjdhpX sc-chPdSV flUqDq">More</a>
+                        <ul class="sc-kgoBCf ddTRvO">
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="photos"
+                              href="https://edition.cnn.com/specials/photos" data-analytics="header_expanded-nav"
+                              title="visit the Photos section" class="sc-fjdhpX sc-kpOJdX tqJTs">Photos</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="longform"
+                              href="https://edition.cnn.com/specials/cnn-longform" data-analytics="header_expanded-nav"
+                              title="visit the Longform section" class="sc-fjdhpX sc-kpOJdX tqJTs">Longform</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="cnn-investigates"
+                              href="https://edition.cnn.com/specials/cnn-investigates"
+                              data-analytics="header_expanded-nav" title="visit the Investigations section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">Investigations</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="profiles"
+                              href="https://edition.cnn.com/specials/profiles" data-analytics="header_expanded-nav"
+                              title="visit the CNN Profiles section" class="sc-fjdhpX sc-kpOJdX tqJTs">CNN Profiles</a>
+                          </li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="leadership"
+                              href="https://edition.cnn.com/specials/more/cnn-leadership"
+                              data-analytics="header_expanded-nav" title="visit the CNN Leadership section"
+                              class="sc-fjdhpX sc-kpOJdX tqJTs">CNN Leadership</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="newsletters"
+                              href="https://edition.cnn.com/email/subscription" data-analytics="header_expanded-nav"
+                              title="visit the CNN Newsletters section" class="sc-fjdhpX sc-kpOJdX tqJTs">CNN
+                              Newsletters</a></li>
+                          <li class="sc-kGXeez femHHJ"><a mode="light" type="expanded" name="jobs"
+                              href="https://careers.wbd.com/cnnjobs" data-analytics="header_expanded-nav"
+                              title="visit the Work for CNN section" class="sc-fjdhpX sc-kpOJdX tqJTs">Work for CNN</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="Flex-sc-1sqrs56-0 sc-RcBXQ iZgGgR">
+                  <hr mode="light" class="sc-cooIXK gDsExL">
+                  <div data-test="social-follow-bar" class="Flex-sc-1sqrs56-0 sc-brqgnP fPzzBY"><span font-weight="bold"
+                      data-test="follow-text" font-size="12" letter-spacing="1.5"
+                      class="Text-sc-1amvtpj-0-span jKFEoX">Follow CNN </span>
+                    <ul class="Box-sc-1fet97o-0 fAJFBm">
+                      <li class="Box-sc-1fet97o-0 hyVhvp"><a href="https://facebook.com/cnninternational"
+                          target="_blank noreferrer" rel="noopener" data-icon="facebook" aria-label="Facebook page"
+                          name="Facebook page" mode="light" color="#0C0C0C"
+                          class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-cMljjf gzWcVe"><svg class="facebook-icon"
+                            style="outline:0" width="64" height="64" viewBox="0 0 64 64" fill=""
+                            xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                            <path
+                              d="M56,5.1H8c-1.6,0-3,1.4-3,3v48.8c0,1.7,1.3,3,3,3h25.9V38.7h-7v-8.3h7v-6.1 c0-7.1,4.3-10.9,10.5-10.9c3,0,5.9,0.2,6.7,0.3v7.7h-4.7c-3.4,0-4.1,1.6-4.1,4v5h8.1l-1,8.3h-7v21.2H56c1.6,0,3-1.4,3-3V8.1 C59,6.4,57.7,5.1,56,5.1">
+                            </path>
+                          </svg></a></li>
+                      <li class="Box-sc-1fet97o-0 hyVhvp"><a href="https://twitter.com/cnni" target="_blank noreferrer"
+                          rel="noopener" data-icon="twitter" aria-label="Twitter feed" name="Twitter feed" mode="light"
+                          color="#0C0C0C" class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-cMljjf gzWcVe"><svg
+                            class="twitter-icon" style="outline:0" width="64" height="64" viewBox="0 0 64 64" fill=""
+                            xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                            <path
+                              d="M60,15.2c-2.1,0.9-4.3,1.5-6.6,1.7c2.4-1.4,4.2-3.6,5.1-6.1c-2.2,1.3-4.7,2.2-7.3,2.7 c-2.1-2.2-5.1-3.5-8.4-3.5c-6.3,0-11.5,5-11.5,11.1c0,0.9,0.1,1.7,0.3,2.5C22,23.2,13.6,18.8,7.9,12c-1,1.6-1.6,3.5-1.6,5.6 c0,3.9,2,7.3,5.1,9.2c-1.9-0.1-3.7-0.6-5.2-1.4v0.1c0,5.4,4,9.9,9.2,10.9c-1,0.3-2,0.4-3,0.4c-0.7,0-1.5-0.1-2.2-0.2 c1.5,4.4,5.7,7.6,10.7,7.7c-3.9,3-8.9,4.8-14.3,4.8c-0.9,0-1.8-0.1-2.7-0.2c5.1,3.2,11.1,5,17.6,5c21.1,0,32.7-16.9,32.7-31.6 c0-0.5,0-1,0-1.4C56.5,19.4,58.5,17.4,60,15.2">
+                            </path>
+                          </svg></a></li>
+                      <li class="Box-sc-1fet97o-0 hyVhvp"><a href="https://instagram.com/cnn" target="_blank noreferrer"
+                          rel="noopener" data-icon="instagram" aria-label="Instagram feed" name="Instagram feed"
+                          mode="light" color="#0C0C0C"
+                          class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-cMljjf gzWcVe"><svg class="instagram-icon"
+                            style="outline:0" width="64" height="64" viewBox="0 0 64 64" fill=""
+                            xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                            <path
+                              d="M47,13.2c-1.9,0-3.5,1.6-3.5,3.6s1.6,3.6,3.5,3.6s3.5-1.6,3.5-3.6S49,13.2,47,13.2 L47,13.2z M31.9,23c-5.1,0-9.3,4.3-9.3,9.5s4.2,9.5,9.3,9.5s9.3-4.3,9.3-9.5S37,23,31.9,23L31.9,23z M31.9,46.7 c-7.7,0-14-6.4-14-14.2s6.3-14.2,14-14.2s14,6.4,14,14.2S39.6,46.7,31.9,46.7L31.9,46.7z M15.7,8.8c-3.9,0-7,3.2-7,7.1v33.2 c0,3.9,3.1,7.1,7,7.1h32.7c3.9,0,7-3.2,7-7.1V15.9c0-3.9-3.1-7.1-7-7.1C48.4,8.8,15.7,8.8,15.7,8.8z M48.3,60.9H15.7 C9.2,60.9,4,55.6,4,49.1V15.9C4,9.4,9.2,4.1,15.7,4.1h32.7C54.8,4.1,60,9.4,60,15.9v33.2C60,55.6,54.8,60.9,48.3,60.9L48.3,60.9z">
+                            </path>
+                          </svg></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+
+  </div>
+
+  <!--/////////////////////////// первый блок  ///////////////////////////////////////-->
+  <!--/////////////////////////// первый блок  ///////////////////////////////////////-->
+
+
+  <div class="l-container">
+    <div class="first__block">
+      <h1 class="pg-headline">Unbelievable Breakthrough in Male Enhancement: Discover the Secret to <span
+          class="red__txt">
+          Mind-Blowing Sex and
+          Unstoppable Confidence!
+        </span>
+      </h1>
+      <span class="metadata__byline__author1">By Amanda Jones, CNN <br>
+        Updated 3:17 PM, April 24, 2023</span>
+    </div>
+
+    <div class="pg-rail-tall__head js-pg-rail-tall__head">
+      <img alt="Report: Black women more likely to die from breast cancer " class="media__image media__gif"
+        src="./img/titlegif.gif">
+
+      <div class="media__caption el__storyelement__title el__storyelement__title1">Report: The editors of
+        CNN for a long time could not believe the veracity of this story, but after double-checking everything 10
+        times, we proudly declare - <span class="b__txt">IT REALLY WORKS</span></div>
+    </div>
+
+    <div class="el__leafmedia el__leafmedia--sourced-paragraph">
+      <p class="zn-body__paragraph speakable">A game-changing scientific method has emerged, promising men the sexual
+        prowess of a Greek god! <a href="#" class="b__txtm">Doctor David Samadi</a> renowned expert in male performance
+        enhancement, has developed a
+        jaw-dropping technique that guarantees a penis size increase of at least <a href="#" class="red__txt1">4.3
+          INCHES IN
+          JUST 9 DAYS</a> long with
+        rock-hard erections that last all night long.</p>
+    </div>
+
+
+    <div class="pic__text__block">
+      <img alt="img" class="media__image media__image_doc" src="./img/doc.png">
+      <div class="zn-body__paragraph paragraph__doc">
+        Imagine the newfound confidence and sexual mastery you'll experience when you
+        unleash your inner stallion and leave your partner breathless, begging for more! Doctor Samadi's <a href="#"
+          class="red__txt1">
+          revolutionary
+          method
+        </a> has already transformed the lives of countless men, turning them into insatiable, passionate lovers
+        capable
+        of delivering a mind-blowing five continuous orgasms to their lucky partners.
+        <br>
+        <br>
+        Forget the old-fashioned, ineffective methods like weights and pumps – this groundbreaking technique is backed
+        by
+        <a href="#" class="red__txt1">ISO 9001 certification</a> and solid medical research, proving that it truly works
+        wonders for your manhood. With this
+        life-altering discovery, you'll be able to annihilate any trace of embarrassment or insecurity, and instead,
+        strut
+        with pride, knowing you possess the power to fuck your girl like never before.
+      </div>
+    </div>
+
+
+
+
+    <h2 class="subtitle pg-headline">
+      Your penis is guaranteed <br>
+      to increase by <a href="#" class="red__txt">4.3 inches in just 9 days</a>
+    </h2>
+    <div class="img__box__do-posle">
+      <div class="text__box__do-posle">
+        <img class="img__do-posle" src="./img/do.png" alt="">
+        <div class="text__pos__do-posle">Before Animale</div>
+      </div>
+      <div class="text__box__do-posle">
+        <img class="img__do-posle" src="./img/posle.png" alt="">
+        <div class="text__pos__do-posle2">After 9 days</div>
+      </div>
+    </div>
+    <div class="zn-body__paragraph paragraph__do-posle">
+      Renowned urologist Dr. David Samadi recently collaborated with CNN to conduct an exclusive 9-day experiment
+      involving six men who volunteered to test <a href="#" class="red__txt1">"Animale"</a>, the groundbreaking
+      supplement. The aim was to independently
+      verify the product's claims and assess its impact on sexual performance and penis size.
+      <br>
+      <br>
+      Under Dr. Samadi's expert supervision, the participants took <a href="#" class="red__txt1">Animale</a> daily and
+      provided regular feedback. At the
+      end of the experiment, all six men reported significant improvements in erection strength, sexual stamina, and
+      confidence. All 6 men increased their penises by at least 2 inches as a result of using the drug
+    </div>
+
+
+    <!-- //////////////// кнопка ////////// -->
+
+    <a href="#"><img class="btnDis1" src="btnDis1.png" alt=""></a>
+
+    <!-- //////////////// 6 блоков картинка текст ////////// -->
+
+    <h2 class="subtitle pg-headline pen-title">
+      The results of those who have tried <a href="#" class="red__txt">Animale</a><br> on themselves
+    </h2>
+
+    <div class="chlen__item">
+      <img src="./img/chlen1.png" alt="">
+      <div class="chlen__data-block">
+        <span>Name: <a href="#" class="b__txtm">John</a></span>
+        <span>Age: <a href="#" class="b__txtm">35 years</a></span>
+        <span>old Penis size before Animale: <a href="#" class="b__txtm">4.5 inches</a></span>
+        <span>Penis size after Animale: <a href="#" class="red__txt1">6.7 inches</a></span>
+        <div class="zn-body__paragraph paragraph__doc">
+          "<a href="#" class="red__txt1">Animale</a> has been a game-changer for me. My size increased by 2.2
+          inches, and my confidence has skyrocketed. The energy and stamina I now have are mind-blowing. I'm beyond
+          satisfied with the results and can't recommend it enough!"
+        </div>
+      </div>
+    </div>
+    <div class="div_line2"></div>
+
+    <!-- ................................................ -->
+    <div class="chlen__item">
+      <img src="./img/chlen2.png" alt="">
+      <div class="chlen__data-block">
+        <span>Name: <a href="#" class="b__txtm">Mark</a></span>
+        <span>Age: <a href="#" class="b__txtm">29 years old</a></span>
+        <span>Penis size before Animale: <a href="#" class="b__txtm">2.5 inches</a></span>
+        <span>Penis size after Animale: <a href="#" class="red__txt1">6.0 inches</a></span>
+        <div class="zn-body__paragraph paragraph__doc">
+          "I couldn't be happier with the outcome of using <a href="#" class="red__txt1">Animale</a>. My penis
+          size increased by 3.5 inches,
+          and my sex drive has never been stronger. I feel like a new man, and my girlfriend is thrilled with our
+          enhanced sexual experiences!"
+        </div>
+      </div>
+    </div>
+    <div class="div_line2"></div>
+
+    <!-- ................................................ -->
+    <div class="chlen__item">
+      <img src="./img/chlen3.png" alt="">
+      <div class="chlen__data-block">
+        <span>Name: <a href="#" class="b__txtm">Eric</a></span>
+        <span>Age: <a href="#" class="b__txtm">42 years old</a></span>
+        <span>old Penis size before Animale: <a href="#" class="b__txtm">2.5 inches</a></span>
+        <span>Penis size after Animale: <a href="#" class="red__txt1">7.3 inches</a></span>
+        <div class="zn-body__paragraph paragraph__doc">
+          "I was skeptical at first, but <a href="#" class="red__txt1">Animale</a> has truly delivered on its
+          promises. I gained 4.8 inches in size and now have the stamina to satisfy my wife like never before. I
+          wholeheartedly recommend it."
+        </div>
+      </div>
+    </div>
+    <div class="div_line2"></div>
+
+    <!-- ................................................ -->
+    <div class="chlen__item">
+      <img src="./img/chlen4.png" alt="">
+      <div class="chlen__data-block">
+        <span>Name: <a href="#" class="b__txtm">Thomas</a></span>
+        <span>Age: <a href="#" class="b__txtm">39 years old</a></span>
+        <span>old Penis size before Animale: <a href="#" class="b__txtm">3.2 inches</a></span>
+        <span>Penis size after Animale: <a href="#" class="red__txt1">6.1 inches</a></span>
+        <div class="zn-body__paragraph paragraph__doc">
+          "I'm genuinely amazed by the results I've experienced since using
+          <a href="#" class="red__txt1">Animale</a>. I never thought I could add 2.9 inches to my size, but here I am!
+          My wife and I have discovered new
+          heights of pleasure, and our relationship has never been stronger."
+        </div>
+      </div>
+    </div>
+    <div class="div_line2"></div>
+
+    <!-- ................................................ -->
+    <div class="chlen__item">
+      <img src="./img/chlen5.png" alt="">
+      <div class="chlen__data-block">
+        <span>Name: <a href="#" class="b__txtm">Jake</a></span>
+        <span>Age: <a href="#" class="b__txtm">27 years old</a></span>
+        <span>old Penis size before Animale: <a href="#" class="b__txtm">3.5 inches</a></span>
+        <span>Penis size after Animale: <a href="#" class="red__txt1">7.3 inches</a></span>
+        <div class="zn-body__paragraph paragraph__doc">
+          "I took a chance on <a href="#" class="red__txt1">Animale</a>, and I'm so glad I did. With a 3.8-inch size
+          increase, I feel like a brand-new
+          man. My wife is more satisfied than ever, and I'm enjoying every minute of our renewed passion."
+        </div>
+      </div>
+    </div>
+    <div class="div_line2"></div>
+
+    <!-- ................................................ -->
+    <div class="chlen__item">
+      <img src="./img/chlen6.png" alt="">
+      <div class="chlen__data-block">
+        <span>Name: <a href="#" class="b__txtm">Alex</a></span>
+        <span>Age: <a href="#" class="b__txtm">31 years old</a></span>
+        <span>old Penis size before Animale: <a href="#" class="b__txtm">2.2 inches</a></span>
+        <span>Penis size after Animale: <a href="#" class="red__txt1">6.3 inches</a></span>
+        <div class="zn-body__paragraph paragraph__doc">
+          "The transformation I've experienced with <a href="#" class="red__txt1">Animale</a> is nothing short of
+          miraculous. Adding 4.1 inches
+          to my size has given me a renewed sense of confidence and vigor. My gf and I are exploring
+          new depths of intimacy now!! THX!
+        </div>
+      </div>
+    </div>
+    <div class="div_line2"></div>
+
+    <!-- ................................................ -->
+
+
+
+    <!-- //////////////// кнопка ////////// -->
+    <!-- //////////////// кнопка ////////// -->
+    <!-- //////////////// кнопка ////////// -->
+    <!-- //////////////// кнопка ////////// -->
+
+    <a href="#"><img class="btnDis1 btnDelay" src="btnDis1.png" alt=""></a>
+
+    <!-- ................................................ -->
+
+    <h2 class="subtitle sex-title">
+      Sex after using <a href="#" class="red__txt">Animale</a>
+    </h2>
+    <div>
+      <img src="./img/sex1.gif" alt="">
+      <img src="./img/sex2.gif" alt="">
+      <img src="./img/sex3.gif" alt="">
+    </div>
+
+    <div class="zn-body__paragraph paragraph__do-posle">
+      With <a href="#" class="red__txt1">Animale</a>, your sex life is going to become absolutely insane. Imagine your
+      partner moaning, screaming, and
+      begging for more as you pound them with your massive, rock-hard cock. Your girlfriend or wife won't be able to get
+      enough of your huge, throbbing member, and they'll be cumming at least five times in a single session, drenched in
+      ecstasy.
+      <br>
+      <br>
+      As you thrust deeper and harder, your partner will experience mind-blowing, earth-shattering orgasms that they
+      never thought possible. Your enhanced manhood and unstoppable stamina will leave them quivering with pleasure,
+      craving your next encounter.
+      <br>
+      <br>
+      <a href="#" class="red__txt1">Animale</a> will turn you into an insatiable, relentless sex machine. Your partner
+      will be completely addicted to your
+      newfound sexual prowess, desperate for more of your deep, satisfying strokes. Together, you'll explore the
+      dirtiest, kinkiest fantasies and push the boundaries of erotic satisfaction.
+    </div>
+
+    <!-- //////////////// статистика ////////// -->
+    <h2 class="subtitle sex-title">
+      Conclusions of our experiment
+    </h2>
+
+    <div class="inch__red">
+      <div class="inch__item">+2.5 inch<br>
+        (on average)</div>
+      <div class="inch__item">+36 min sex<br>
+        (on average)</div>
+    </div>
+
+    <div class="zn-body__paragraph paragraph__do-posle">
+      Discover the jaw-dropping results of the recent experiment with <a href="#" class="red__txt1">Animale</a>: 6 men
+      experienced significant increases
+      in penis size, a boost in sexual stamina, and newfound confidence in their performance. Don't miss your chance to
+      revolutionize your sex life with this groundbreaking male enhancement supplement. Unleash your inner sexual beast,
+      satisfy your girl like never before, and become the ultimate lover with <a href="#" class="red__txt1">Animale</a>.
+      Try it now and witness the
+      incredible transformation for yourself!
+    </div>
+
+    <a href="#"><img class="btnDis1" src="btnDis1.png" alt=""></a>
+
+    <!-- //////////////// состав ////////// -->
+
+    <div class="sostav">
+      <div class="sostav__text">
+        <h2 class="subtitle sostav-title">
+          Incredibly natural ANIMALE remedy
+        </h2>
+        <div class="sostav__text">
+          <span>
+            <strong>1) BORON</strong>
+          </span>
+          <span>
+            <strong>2) SAW PALMETTO EXTRACT</strong>
+          </span>
+          <span>
+            <strong>3) ORCHIC SUBSTANCE</strong>
+          </span>
+          <span>
+            <strong>4) NETTLE EXTRACT</strong>
+          </span>
+          <span>
+            <strong>5) HORNEY GOATWEED EXTRACT</strong>
+          </span>
+          <span>
+            <strong>6) TONGKAT AILEXTRACT</strong>
+          </span>
+        </div>
+      </div>
+      <img class="nat__img" alt="" src="./img/100pr.png">
+    </div>
+
+    <!-- //////////////// блок заказать ////////// -->
+
+    <h2 class="subtitle pg-headline end-title">
+      Fill her pussy with hot cum, have time to buy <a href="#" class="red__txt">Animale!</a>
+    </h2>
+    <div class="chlen__item">
+      <img class="sex-gif_end" src="./img/sex4.gif" alt="">
+      <div class="chlen__data-block">
+
+        <div class="zn-body__paragraph paragraph__doc">
+          With your massive, throbbing cock, you'll be able to pound your partner into submission and shower them with
+          your hot, thick loads of cum. Unleash your full potential and become the ultimate sex god you've always wanted
+          to be.
+        </div>
+        <div class="zn-body__paragraph paragraph__doc">
+          Don't let this once-in-a-lifetime opportunity slip through your fingers. Seize the chance to revolutionize
+          your sex life and claim your rightful place as the ultimate sexual conqueror. Order <a href="#" class="red__txt">Animale</a> now and brace
+          yourself for a life-changing transformation that will leave you both breathless and insatiable. Your reign as
+          a sexual titan begins today with <a href="#" class="red__txt">Animale!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="zakaz__img">
+      <div class="zakaz__pic">
+        <img src="./img/bank1.png" alt="">
+      </div>
+      <a href="#" class="zakaz__btn">
+        <span>
+        CLICK <br> TO ORDER
+        </span>
+      </a>
+    </div>
+
+    
+
+    <!-- //////////////// footer ////////// -->
+    <!-- //////////////// footer ////////// -->
+    <!-- //////////////// footer ////////// -->
+    <!-- //////////////// footer ////////// -->
+
+    <div class="Grid-sc-1kcyc0j-0 hFujui">
+      <div class="Cell-i0zvfi-0 dxrNOP">
+        <div class="Flex-sc-1sqrs56-0 sc-jhAzac jPimVQ">
+          <div class="Flex-sc-1sqrs56-0 sc-jlyJG jWqyra">
+            <div size="40" class="Flex-sc-1sqrs56-0 sc-iwsKbI YyuVL"><a href="https://edition.cnn.com/" aria-label="CNN"
+                data-analytics="footer" color="#0C0C0C" mode="light"
+                class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 jlzTwO"><svg class="cnn-badge-icon" style="outline:0"
+                  width="40" height="40" viewBox="0 0 240 240" fill="#CC0000" xmlns="https://www.w3.org/2000/svg"
+                  aria-hidden="true">
+                  <rect x="0" y="0" width="100%" height="100%" fill="#fff"></rect>
+                  <path
+                    d="M.31-.07v240h240V-.07ZM86.54,135.29V92.51c0-16.1,20.81-23.83,31.82-5.12.8,1.35,18.14,31.22,18.14,31.22V92.51c0-16.1,20.8-23.83,31.81-5.12.8,1.35,18.14,31.22,18.14,31.22V76.79h10.38V147a2.11,2.11,0,0,1-1.51,2.14c-1.1.3-2.26-.38-3.11-1.82-.17-.28-9-15.46-17.48-30.13L159.17,90.4c-2.18-3.7-5.43-4.35-7.74-3.72a6.23,6.23,0,0,0-4.55,6.13V147a2.12,2.12,0,0,1-1.51,2.14c-1.11.3-2.27-.38-3.11-1.82-.15-.25-8.34-14.36-16.25-28-10.08-17.38-16.7-28.78-16.8-28.95-2.18-3.71-5.44-4.35-7.77-3.72a6.24,6.24,0,0,0-4.56,6.13v53.05a2.9,2.9,0,0,1-2.72,2.71H67.23a28.64,28.64,0,0,1,0-57.28h14v10.36H67.35a18.28,18.28,0,1,0,0,36.56H83.68A2.84,2.84,0,0,0,86.54,135.29Zm124.77,12.05c0,16.1-20.81,23.83-31.82,5.13-.79-1.35-18.14-31.23-18.14-31.23v26.1c0,16.1-20.8,23.83-31.81,5.13-.8-1.35-18.14-31.23-18.14-31.23v24.61c0,11.17-6.63,17.22-17,17.22H67.25a43.14,43.14,0,0,1,0-86.28h14V87.15h-14a32.78,32.78,0,1,0,0,65.56H94.16a7,7,0,0,0,6.86-6.85V92.81a2.1,2.1,0,0,1,1.51-2.13c1.1-.3,2.26.38,3.11,1.82l16.79,28.93c9.76,16.83,16.17,27.88,16.25,28,2.19,3.7,5.45,4.35,7.78,3.71A6.22,6.22,0,0,0,151,147V92.82a2.11,2.11,0,0,1,1.49-2.14c1.09-.3,2.24.38,3.08,1.82l15.56,26.81,17.49,30.15c1.71,2.9,4.09,3.93,6.16,3.93a6,6,0,0,0,1.61-.22A6.23,6.23,0,0,0,201,147V76.79h10.34Z"
+                    transform="translate(-0.31 0.07)"></path>
+                </svg></a><a href="https://edition.cnn.com/health" aria-label="Health" mode="light"
+                data-analytics="footer" data-test="section-link" color="#0C0C0C"
+                class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-gZMcBi cSkDDV"><svg class="health-logo-icon"
+                  style="outline:0" width="70px" height="70px" viewBox="0 0 99.85 27.51" fill="#0C0C0C"
+                  xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                  <path fill="#37b34a"
+                    d="M45.52 1.12a4.57 4.57 0 0 0-1.05.13 4.84 4.84 0 0 0-.13 1.08 4.79 4.79 0 0 0 4.73 4.85 4.58 4.58 0 0 0 1-.14A4.7 4.7 0 0 0 50.25 6a4.79 4.79 0 0 0-4.73-4.88zM52.56 4.6a1.51 1.51 0 0 1 .42.05 2.12 2.12 0 0 1 .05.44 2.16 2.16 0 0 1-2 2.07 1.86 1.86 0 0 1-.42 0 2 2 0 0 1 0-.43 2.24 2.24 0 0 1 1.95-2.13z">
+                  </path>
+                  <path
+                    d="M28.16 27.51a9.19 9.19 0 0 1-6.85-3 9.92 9.92 0 0 1-2.8-7.07v-.27a10 10 0 0 1 2.93-6.88A8.62 8.62 0 0 1 28 7.66a9.32 9.32 0 0 1 6.86 2.69 9.69 9.69 0 0 1 2.9 6.89 1.47 1.47 0 0 1 0 .41 1.5 1.5 0 0 1-1.58 1.28H21.94a6.32 6.32 0 0 0 1.8 3.38 5.94 5.94 0 0 0 2 1.41 6.38 6.38 0 0 0 2.41.45 6.2 6.2 0 0 0 2.77-.67l.13-.07a6.4 6.4 0 0 0 2.29-2.1 1.57 1.57 0 0 1 1.09-.73h.23a1.7 1.7 0 0 1 1 .35 1.77 1.77 0 0 1 .62 1 .9.9 0 0 1 0 .25 1.6 1.6 0 0 1-.36 1.1l-.09.1a9.18 9.18 0 0 1-1.31 1.6 10 10 0 0 1-1.9 1.38 9.17 9.17 0 0 1-4.46 1.13zm6.08-11.89a6.34 6.34 0 0 0-.51-1.32 7.05 7.05 0 0 0-1.32-1.76 6.54 6.54 0 0 0-2-1.26 5.89 5.89 0 0 0-2.27-.45 6 6 0 0 0-4.29 1.75l-.32.3A6.51 6.51 0 0 0 22 15.62zm23 11.85a1.69 1.69 0 0 1-1.11-.47 1.91 1.91 0 0 1-.5-1.23v-.87a12.22 12.22 0 0 1-1.34 1 9 9 0 0 1-5 1.48 9.26 9.26 0 0 1-6.82-2.92 10 10 0 0 1-2.79-7.07 10.11 10.11 0 0 1 .71-3.8 10.57 10.57 0 0 1 2.06-3.22 8.79 8.79 0 0 1 6.68-2.78 9.43 9.43 0 0 1 7 2.76 9.94 9.94 0 0 1 2.79 7v8.35a1.72 1.72 0 0 1-.46 1.3 2 2 0 0 1-.54.37 1.57 1.57 0 0 1-.67.1zm-8-16.66a6 6 0 0 0-4.48 1.95 6.6 6.6 0 0 0-1.76 4.7 6.71 6.71 0 0 0 1.88 4.74 6.09 6.09 0 0 0 8.92 0 6.71 6.71 0 0 0 1.88-4.73 6.61 6.61 0 0 0-1.88-4.7 6 6 0 0 0-4.5-1.96zm48.98 16.62a1.63 1.63 0 0 1-1.16-.43 1.75 1.75 0 0 1-.33-.54 1.64 1.64 0 0 1-.12-.63V15.62a4.83 4.83 0 0 0-1.39-3.44A4.34 4.34 0 0 0 92 10.72a4.4 4.4 0 0 0-3.28 1.46 4.82 4.82 0 0 0-1.37 3.44v10.17a1.52 1.52 0 0 1-.58 1.21 1.39 1.39 0 0 1-1.09.46 1.56 1.56 0 0 1-1.16-.51 1.45 1.45 0 0 1-.45-1.13V1.66a1.62 1.62 0 0 1 .45-1.15A1.59 1.59 0 0 1 85.68 0a1.5 1.5 0 0 1 1.17.54 1.5 1.5 0 0 1 .46 1.12V9a6.89 6.89 0 0 1 .69-.45 7.47 7.47 0 0 1 3.77-1 7.75 7.75 0 0 1 5.77 2.3 8 8 0 0 1 2.29 5.74v10.2a1.91 1.91 0 0 1-.13.84l-.35.34a1.68 1.68 0 0 1-1.13.46zm-84.06 0A1.62 1.62 0 0 1 13 27a1.87 1.87 0 0 1-.33-.54 1.68 1.68 0 0 1-.12-.63V15.62a4.8 4.8 0 0 0-1.4-3.44 4.38 4.38 0 0 0-6.53 0 4.79 4.79 0 0 0-1.38 3.44v10.17A1.48 1.48 0 0 1 2.7 27a1.36 1.36 0 0 1-1.09.46 1.56 1.56 0 0 1-1.16-.51A1.5 1.5 0 0 1 0 25.79V1.66A1.66 1.66 0 0 1 .45.51 1.59 1.59 0 0 1 1.61 0a1.48 1.48 0 0 1 1.17.54 1.5 1.5 0 0 1 .46 1.12V9A8.17 8.17 0 0 1 4 8.55a5.5 5.5 0 0 1 1.6-.65h.11a7.34 7.34 0 0 1 2.07-.29 7.73 7.73 0 0 1 5.76 2.3 8.06 8.06 0 0 1 2.3 5.74v10.14a1.57 1.57 0 0 1-.18.75l.07.07-.43.39a1.65 1.65 0 0 1-1.14.43zm63.51 0a1.75 1.75 0 0 1-1-.34 10.51 10.51 0 0 1-4.17-8.13V1.69a1.7 1.7 0 0 1 .48-1.2A1.58 1.58 0 0 1 74.13 0a1.61 1.61 0 0 1 .63.12 1.49 1.49 0 0 1 .54.37 1.47 1.47 0 0 1 .35.55 1.84 1.84 0 0 1 .11.65v6.22h4.35a1.52 1.52 0 0 1 1.66 1.52 1.57 1.57 0 0 1-1.66 1.51h-4.35v7.8a7.09 7.09 0 0 0 .51 2.64 7.53 7.53 0 0 0 2.44 3.05 1.67 1.67 0 0 1 .69 1.21 1.58 1.58 0 0 1-.52 1.27 1.73 1.73 0 0 1-1.21.48zm-9.82-.07a1.72 1.72 0 0 1-1-.35 12.81 12.81 0 0 1-1.12-1 10.09 10.09 0 0 1-2.18-3.26 10.83 10.83 0 0 1-.75-3.86V1.67a1.74 1.74 0 0 1 .1-.61 1.55 1.55 0 0 1 .3-.57A1.73 1.73 0 0 1 64.4 0a1.67 1.67 0 0 1 .65.12 1.83 1.83 0 0 1 .53.34 1.59 1.59 0 0 1 .38.6 1.74 1.74 0 0 1 .1.61v17a7.38 7.38 0 0 0 .48 2.67 6.37 6.37 0 0 0 2.37 3.06 1.68 1.68 0 0 1 .66 1.18 1.6 1.6 0 0 1-.47 1.24 1.75 1.75 0 0 1-1.25.52z">
+                  </path>
+                </svg></a></div>
+          </div>
+          <div class="Box-sc-1fet97o-0 sc-Rmtcm cQGOQP">
+            <div class="Flex-sc-1sqrs56-0 sc-eqIVtm cntRww">
+              <div class="Flex-sc-1sqrs56-0 sc-dVhcbM dpTTAk"><a href="https://edition.cnn.com/audio"
+                  aria-label="AudioLink" target="_blank" rel="noopener noreferrer" mode="light" color="#4D4D4D"
+                  class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-caSCKo jgsKpw"><span data-test="audio-copy"
+                    class="Text-sc-1amvtpj-0-span sc-gisBJw jsPEMK">Audio</span></a></div>
+              <div mode="light" class="Box-sc-1fet97o-0 sc-fBuWsC eZodMl"></div>
+            </div>
+          </div>
+          <div class="Flex-sc-1sqrs56-0 sc-iRbamj fjPYkK">
+            <div data-test="social-follow-bar" class="Flex-sc-1sqrs56-0 sc-brqgnP fPzzBY"><span font-weight="bold"
+                data-test="follow-text" font-size="12" letter-spacing="1.5" class="Text-sc-1amvtpj-0-span jKFEoX">Follow
+                CNN </span>
+              <ul class="Box-sc-1fet97o-0 fAJFBm">
+                <li class="Box-sc-1fet97o-0 hyVhvp"><a href="https://facebook.com/cnninternational"
+                    target="_blank noreferrer" rel="noopener" data-icon="facebook" aria-label="Facebook page"
+                    name="Facebook page" mode="light" color="#0C0C0C"
+                    class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-cMljjf gzWcVe"><svg class="facebook-icon"
+                      style="outline:0" width="64" height="64" viewBox="0 0 64 64" fill=""
+                      xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                      <path
+                        d="M56,5.1H8c-1.6,0-3,1.4-3,3v48.8c0,1.7,1.3,3,3,3h25.9V38.7h-7v-8.3h7v-6.1 c0-7.1,4.3-10.9,10.5-10.9c3,0,5.9,0.2,6.7,0.3v7.7h-4.7c-3.4,0-4.1,1.6-4.1,4v5h8.1l-1,8.3h-7v21.2H56c1.6,0,3-1.4,3-3V8.1 C59,6.4,57.7,5.1,56,5.1">
+                      </path>
+                    </svg></a></li>
+                <li class="Box-sc-1fet97o-0 hyVhvp"><a href="https://twitter.com/cnni" target="_blank noreferrer"
+                    rel="noopener" data-icon="twitter" aria-label="Twitter feed" name="Twitter feed" mode="light"
+                    color="#0C0C0C" class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-cMljjf gzWcVe"><svg
+                      class="twitter-icon" style="outline:0" width="64" height="64" viewBox="0 0 64 64" fill=""
+                      xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                      <path
+                        d="M60,15.2c-2.1,0.9-4.3,1.5-6.6,1.7c2.4-1.4,4.2-3.6,5.1-6.1c-2.2,1.3-4.7,2.2-7.3,2.7 c-2.1-2.2-5.1-3.5-8.4-3.5c-6.3,0-11.5,5-11.5,11.1c0,0.9,0.1,1.7,0.3,2.5C22,23.2,13.6,18.8,7.9,12c-1,1.6-1.6,3.5-1.6,5.6 c0,3.9,2,7.3,5.1,9.2c-1.9-0.1-3.7-0.6-5.2-1.4v0.1c0,5.4,4,9.9,9.2,10.9c-1,0.3-2,0.4-3,0.4c-0.7,0-1.5-0.1-2.2-0.2 c1.5,4.4,5.7,7.6,10.7,7.7c-3.9,3-8.9,4.8-14.3,4.8c-0.9,0-1.8-0.1-2.7-0.2c5.1,3.2,11.1,5,17.6,5c21.1,0,32.7-16.9,32.7-31.6 c0-0.5,0-1,0-1.4C56.5,19.4,58.5,17.4,60,15.2">
+                      </path>
+                    </svg></a></li>
+                <li class="Box-sc-1fet97o-0 hyVhvp"><a href="https://instagram.com/cnn" target="_blank noreferrer"
+                    rel="noopener" data-icon="instagram" aria-label="Instagram feed" name="Instagram feed" mode="light"
+                    color="#0C0C0C" class="Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 sc-cMljjf gzWcVe"><svg
+                      class="instagram-icon" style="outline:0" width="64" height="64" viewBox="0 0 64 64" fill=""
+                      xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+                      <path
+                        d="M47,13.2c-1.9,0-3.5,1.6-3.5,3.6s1.6,3.6,3.5,3.6s3.5-1.6,3.5-3.6S49,13.2,47,13.2 L47,13.2z M31.9,23c-5.1,0-9.3,4.3-9.3,9.5s4.2,9.5,9.3,9.5s9.3-4.3,9.3-9.5S37,23,31.9,23L31.9,23z M31.9,46.7 c-7.7,0-14-6.4-14-14.2s6.3-14.2,14-14.2s14,6.4,14,14.2S39.6,46.7,31.9,46.7L31.9,46.7z M15.7,8.8c-3.9,0-7,3.2-7,7.1v33.2 c0,3.9,3.1,7.1,7,7.1h32.7c3.9,0,7-3.2,7-7.1V15.9c0-3.9-3.1-7.1-7-7.1C48.4,8.8,15.7,8.8,15.7,8.8z M48.3,60.9H15.7 C9.2,60.9,4,55.6,4,49.1V15.9C4,9.4,9.2,4.1,15.7,4.1h32.7C54.8,4.1,60,9.4,60,15.9v33.2C60,55.6,54.8,60.9,48.3,60.9L48.3,60.9z">
+                      </path>
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="Flex-sc-1sqrs56-0 sc-bRBYWo kbmmKN">
+            <div mode="light" class="Box-sc-1fet97o-0 sc-fBuWsC eZodMl"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div_line2"></div>
+    <div mode="light" data-component="copyright" class="Box-sc-1fet97o-0 sc-VigVT levtNV"><span
+        data-area="copyright-CNN" class="Text-sc-1amvtpj-0-span sc-gqjmRU kdebMl">©
+        <!-- -->2023
+        <!-- --> Cable News Network.
+      </span><span class="Text-sc-1amvtpj-0-span sc-gqjmRU kdebMl">A Warner Bros. Discovery Company.</span><span
+        class="Text-sc-1amvtpj-0-span sc-gqjmRU kdebMl">All Rights Reserved.</span><span
+        class="Text-sc-1amvtpj-0-span sc-gqjmRU sc-jTzLTM dJbyZs">CNN Sans ™ &amp; © 2016 Cable News Network.</span>
+    </div>
+  </div>
+
+  <!-- //////////////// псевдо каунтер ////////// -->
+
+  <div id="bottombar1" style="bottom: 0px; position: fixed;">
+    <span><span id="counter1">184</span> people are reading this page right now.</span>
+  </div>
+
+</body>
+
+</html>
