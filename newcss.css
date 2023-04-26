@@ -324,9 +324,7 @@ hr {
 /* ---------------------------------------------- */
 /* ===================== 1200 =================== */
 @media(max-width: 1200px) {
-  .nav--plain-header{
-    width: 90%;
-  } 
+  
   body{
     zoom: .9;
   }
@@ -399,8 +397,8 @@ hr {
   .text__box__do-posle {
     zoom: .8;
   }
-  #bottombar1{
-    display: none;
+  #nav {
+    width: 900px;
   }
 }
 
