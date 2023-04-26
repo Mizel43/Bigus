@@ -7,8 +7,6 @@ body {
   zoom: .8;
   background-color: rgb(230, 230, 230);
   margin: 0;
-  overflow-x: hidden;
-  
 }
 
 .zn-body__paragraph {
@@ -50,6 +48,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 .metadata__byline__author1 {
@@ -127,7 +126,7 @@ body {
 
 .paragraph__doc {
   margin-top: -0.5%;
-  width: 694px;
+  max-width: 694px;
 }
 .do-posle{
   margin-top: 50px;
@@ -183,15 +182,14 @@ body {
 .chlen__item {
   display: flex;
   gap: 30px;
-  /* border-bottom: 7px solid rgb(230, 230, 230); */
   padding: 15px;
   padding-left: 0;
 }
 hr {
-  border: none; /* Убираем границу */
-  background-color: rgb(230, 230, 230); /* Цвет линии */
-  color: rgb(230, 230, 230); /* Цвет линии для IE6-7 */
-  height: 7px; /* Толщина линии */
+  border: none; 
+  background-color: rgb(230, 230, 230); 
+  color: rgb(230, 230, 230); 
+  height: 7px; 
   width: 110%;
   margin-left: -3%;
   }
@@ -384,6 +382,17 @@ hr {
   }
   .zakaz__pic{
     margin-left: 0;
+  }
+  .media__gif{
+    width: 850px;
+  }
+  .img__box__do-posle {
+    gap: 20px;
+    width: 850px;
+  }
+  .inch__item{
+    font-size: 40px;
+    line-height: 100px;
   }
 }
 
