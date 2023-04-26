@@ -75,7 +75,7 @@ body {
 }
 
 .media__gif {
-  width: 1150px;
+  max-width: 1150px;
   height: 100%;
 }
 
@@ -115,6 +115,7 @@ body {
 .img__box__do-posle {
   display: flex;
   gap: 44px;
+  max-width: 1280px;
 }
 
 .text__box__do-posle {
@@ -282,9 +283,6 @@ body {
 /* ---------------------------------------------- */
 /* ===================== 1200 =================== */
 @media(max-width: 1200px) {
-  .container{
-    max-width: 970px;
-  }
   .nav--plain-header{
     width: 90%;
   } 
@@ -299,9 +297,6 @@ body {
 
 /* ===================== 992 ===================== */
 @media(max-width: 993px){
-  .container{
-    max-width: 750px;
-  }
   body{
     zoom: .8;
   }
@@ -312,18 +307,24 @@ body {
   .chlen__item img{
     max-width: 500px;
   }
+  .sex__gif{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sex__gif img{
+    max-width: 500px;
+  }
+  .nat__img{
+    display: none;
+  }
 }
 
 /* ===================== 768 ===================== */
 @media(max-width: 769px){
-  .l-container{
-    max-width: none;
-  }
   body{
     zoom: .6;
-  }
-  .nat__img{
-    display: none;
   }
 }
 
