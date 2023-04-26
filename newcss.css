@@ -207,11 +207,16 @@ hr {
 .sex-title {
   margin-top: 64px;
 }
+.sex__gif{
+  display: flex;
+  justify-content: space-between;
+}
 
 .inch__red {
   display: flex;
   gap: 26px;
   height: 183px;
+  margin-bottom: 50px;
 }
 
 .inch__item {
@@ -282,8 +287,7 @@ hr {
   align-items: center;
 }
 .zakaz__pic{
-  zoom: .4;
-  margin-bottom: 40px;
+  zoom: .5;
 }
 
 .zakaz__btn {
@@ -396,9 +400,6 @@ hr {
   }
   .text__box__do-posle {
     zoom: .8;
-  }
-  #nav {
-    width: 900px;
   }
 }
 
