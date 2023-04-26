@@ -304,6 +304,8 @@ hr {
 
 }
 #bottombar1{
+  position: fixed;
+  bottom: 0px; 
   right: 0;
   background-color: #C00000;
   height: 40px;
@@ -395,7 +397,10 @@ hr {
     line-height: 80px;
   }
   .text__box__do-posle {
-    zoom: .4;
+    zoom: .8;
+  }
+  #bottombar1{
+    display: none;
   }
 }
 
