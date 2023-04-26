@@ -33,7 +33,7 @@ body {
 }
 
 .l-container {
-  max-width: 1213px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .media__gif {
-  max-width: 1150px;
+  width: 1280px;
   height: 100%;
 }
 
@@ -115,7 +115,7 @@ body {
 .img__box__do-posle {
   display: flex;
   gap: 44px;
-  max-width: 1280px;
+  width: 1280px;
 }
 
 .text__box__do-posle {
