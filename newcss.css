@@ -189,6 +189,11 @@ body {
   zoom: .95;
   margin-bottom: 40px;
 }
+.paragraph__do-posle2 {
+  margin-top: 30px;
+  zoom: .95;
+  margin-bottom: 40px;
+}
 
 .pen-title {
   margin-top: 41px;
@@ -409,10 +414,20 @@ hr {
   body{
     zoom: .9;
   }
+  .metadata__byline__author1{
+    zoom: 1.1;
+  }
+  .el__storyelement__title1{
+    zoom: 1.1;
+  }
+  .speakable{
+    zoom: 1.3;
+  }
   .pic__text__block{
     flex-direction: column;
   }
   .paragraph__doc{
+    zoom: 1.3;
     margin-top: 30px;
   }
   .zakaz__pic{
@@ -436,6 +451,9 @@ hr {
   .paragraph__do-posle{
     zoom: 1.2;
   }
+  .paragraph__do-posle2{
+    zoom: 1.2;
+  }
   .chlen__item{
     flex-direction: column;
   }
@@ -455,7 +473,7 @@ hr {
   .text__box__do-posle {
     zoom: .8;
   }
-  .paragraph__do-posle{
+  .paragraph__do-posle2{
     margin-top: 210px;
   }
   .sostav{
