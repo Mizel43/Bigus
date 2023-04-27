@@ -387,17 +387,49 @@ hr {
 /* ===================== 500 ===================== */
 @media(max-width: 500px){
   body{
-    zoom: .4;
+    zoom: .7;
+  }
+  /* .media__image_doc{
+    zoom: 1.2;
+  } */
+  .pic__text__block{
+    flex-direction: column;
+  }
+  .paragraph__doc{
+    margin-top: 30px;
   }
   .zakaz__pic{
     margin-left: 0;
   }
   .media__gif{
-    width: 850px;
+    width: 630px;
   }
   .img__box__do-posle {
     gap: 20px;
-    width: 850px;
+    flex-direction: column;
+  }
+  .text__pos__do-posle{
+    bottom: 3%;
+    left: 4.5%;
+  }
+  .text__pos__do-posle2{
+    bottom: 3%;
+    left: 7%;
+  }
+  .paragraph__do-posle{
+    zoom: 1.2;
+  }
+  .chlen__item{
+    flex-direction: column;
+  }
+  .chlen__data-block{
+    zoom: 1.3;
+  }
+  .sex__gif{
+    zoom: 1.4;
+  }
+  .inch__red{
+    flex-direction: column;
   }
   .inch__item{
     font-size: 60px;
@@ -405,6 +437,12 @@ hr {
   }
   .text__box__do-posle {
     zoom: .8;
+  }
+  .paragraph__do-posle{
+    margin-top: 210px;
+  }
+  .sostav{
+    width: 100%;
   }
 }
 
