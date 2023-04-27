@@ -358,7 +358,7 @@ hr {
 @media(max-width: 993px){
   
   h1, h2{
-    font-size: 2.46667rem!important;
+    font-size: 2.76667rem!important;
     line-height: 1.13636!important;
   }
   .sex__gif{
@@ -368,8 +368,11 @@ hr {
     align-items: center;
     zoom: 1.3;
   }
+  .sostav{
+    flex-direction: column;
+  }
   .nat__img{
-    display: none;
+    margin-top: -90px;
   }
 }
 @media(max-width: 870px){
@@ -421,13 +424,13 @@ hr {
     zoom: 1.1;
   }
   .speakable{
-    zoom: 1.3;
+    zoom: 1.2;
   }
   .pic__text__block{
     flex-direction: column;
   }
   .paragraph__doc{
-    zoom: 1.3;
+    zoom: 1.2;
     margin-top: 30px;
   }
   .zakaz__pic{
@@ -439,6 +442,7 @@ hr {
   .img__box__do-posle {
     gap: 20px;
     flex-direction: column;
+    zoom: 1.15;
   }
   .text__pos__do-posle{
     bottom: 3%;
@@ -449,10 +453,10 @@ hr {
     left: 7%;
   }
   .paragraph__do-posle{
-    zoom: 1.2;
+    zoom: 1.1;
   }
   .paragraph__do-posle2{
-    zoom: 1.2;
+    zoom: 1.1;
   }
   .chlen__item{
     flex-direction: column;
@@ -467,6 +471,7 @@ hr {
     flex-direction: column;
   }
   .inch__item{
+    padding-top: -3px;
     font-size: 60px;
     line-height: 80px;
   }
@@ -482,7 +487,9 @@ hr {
   .sostav-title{
     width: 600px;
   }
-  
+  #popup{
+    zoom: .8;
+  }
 }
 
 /* ===================== 500 ===================== */
