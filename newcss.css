@@ -140,8 +140,11 @@ body {
   margin-right: 30px;
 }
 
-.paragraph__doc {
+.paragraph__doc1 {
   margin-top: -0.5%;
+  max-width: 694px;
+}
+.paragraph__doc {
   max-width: 694px;
 }
 .do-posle{
@@ -434,7 +437,10 @@ hr {
   }
   .paragraph__doc{
     zoom: 1.1;
-    margin-top: 30px;
+    margin-top: 20px;
+  }
+  .paragraph__doc1{
+    zoom: 1.1;
   }
   .zakaz__pic{
     margin-left: 0;
@@ -489,7 +495,7 @@ hr {
     width: 100%;
   }
   .sostav-title{
-    width: 600px;
+    width: 450px;
   }
   .sostav__text{
     width: 300px;
