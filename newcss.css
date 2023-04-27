@@ -220,7 +220,7 @@ hr {
 .chlen__data-block {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 15px;
   margin-right: 30px;
 }
 
@@ -502,6 +502,9 @@ hr {
   }
   #popup{
     zoom: .8;
+  }
+  .end-title{
+    zoom: 1.1;
   }
 }
 
