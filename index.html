@@ -115,20 +115,6 @@
       <div class="gif__box">
         <img class="media__image media__gif" src="./img/ezgif.com-optimize.gif" data-gif="./img/ezgif.com-optimize.gif" id="yourGif" style="width: 100%; height: auto;">
         <!-- <img src="path/to/placeholder.png" data-gif="path/to/yourgif.gif" id="yourGif" style="width: 100%; height: auto;" /> -->
-        
-        <script>
-          document.addEventListener("DOMContentLoaded", function () {
-            var gif = document.getElementById("yourGif");
-            var gifSrc = gif.getAttribute("data-gif");
-            var img = new Image();
-            img.src = gifSrc;
-            img.onload = function () {
-              gif.src = img.src;
-            };
-          });
-        </script>
-
-
         <div class="media__caption el__storyelement__title el__storyelement__title1">Report: The editors of
           CNN for a long time could not believe the veracity of this story, but after double-checking everything 10
           times, we proudly declare - <span class="b__txt">IT REALLY WORKS</span></div>
@@ -546,23 +532,7 @@
     <div class="popup close" id="bottombar1">
       <span> <span id="rancount">184</span> people are reading this page right now.</span>
     </div>
-    <script>
-      var element = document.getElementById("bottombar1");
-
-      element.addEventListener("click", function () {
-        element.classList.add("hidden-red");
-      });
-    </script>
-    <script>
-      function getRandomNumber(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-      }
-
-      setInterval(function () {
-        var randomNumber = getRandomNumber(110, 240);
-        document.getElementById("rancount").innerHTML = randomNumber;
-      }, 10000);
-    </script>
+    
     <!-- //////////////// псевдо каунтер ////////// -->
     <style>
       #popup {
@@ -626,6 +596,17 @@
     </div>
 
     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var gif = document.getElementById("yourGif");
+        var gifSrc = gif.getAttribute("data-gif");
+        var img = new Image();
+        img.src = gifSrc;
+        img.onload = function () {
+          gif.src = img.src;
+        };
+      });
+    </script>
+    <script>
       setTimeout(function () {
         document.getElementById('popup').style.display = 'block';
       }, 20000);
@@ -633,6 +614,23 @@
       document.getElementById('close-popup').addEventListener('click', function () {
         document.getElementById('popup').style.display = 'none';
       });
+    </script>
+    <script>
+      var element = document.getElementById("bottombar1");
+
+      element.addEventListener("click", function () {
+        element.classList.add("hidden-red");
+      });
+    </script>
+    <script>
+      function getRandomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+
+      setInterval(function () {
+        var randomNumber = getRandomNumber(110, 240);
+        document.getElementById("rancount").innerHTML = randomNumber;
+      }, 10000);
     </script>
 </body>
 
